@@ -20,7 +20,7 @@ export default function Home() {
     <div>
       <section className="main-slider p-0" id="mainSlider">
         <div className="image-layer video-layer">
-          <video autoPlay muted loop playsInline preload controlslist="nodownload"
+          <video autoPlay muted loop playsInline preload="true" controlsList="nodownload"
             poster="images/poster.webp">
             <source src="images/banner.webm" type="video/webm" />
             Your browser does not support the video tag.
@@ -654,100 +654,100 @@ export default function Home() {
         </div>
       </section>
 
-      <section class="innovation">
-        <div class="marquee-section">
+      <section className="innovation">
+        <div className="marquee-section">
 
-          <div class="marquee-wrapper purple">
-            <div class="marquee-track go-left">
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
+          <div className="marquee-wrapper purple">
+            <div className="marquee-track go-left">
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
             </div>
           </div>
 
-          <div class="marquee-wrapper white">
-            <div class="marquee-track go-right">
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
-              <span class="marquee-item">Innovation <span class="star">✦</span></span>
-              <span class="marquee-item">Enterprise <span class="star">✦</span></span>
-              <span class="marquee-item">Business Growth <span class="star">✦</span></span>
-              <span class="marquee-item">Result <span class="star">✦</span></span>
+          <div className="marquee-wrapper white">
+            <div className="marquee-track go-right">
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
+              <span className="marquee-item">Innovation <span className="star">✦</span></span>
+              <span className="marquee-item">Enterprise <span className="star">✦</span></span>
+              <span className="marquee-item">Business Growth <span className="star">✦</span></span>
+              <span className="marquee-item">Result <span className="star">✦</span></span>
             </div>
           </div>
         </div>
 
-        <div class="container">
+        <div className="container">
           <hgroup>
-            <h3 class="subHead" data-aos="fade-down" data-aos-duration="800">
-              <figure><img src="images/subHead-img2.webp" class="img-fluid" alt="" /></figure>
+            <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
+              <figure><img src="images/subHead-img2.webp" className="img-fluid" alt="" /></figure>
               <span>How We Work</span>
             </h3>
-            <h2 class="mainHead" data-aos="fade-up" data-aos-duration="1000">From <br />
+            <h2 className="mainHead" data-aos="fade-up" data-aos-duration="1000">From <br />
               Concept to Code to Scale.</h2>
             <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">We don't rely on guesswork.
               MediaPlus utilizes a proven Agile Methodology that ensures transparency,
               speed, and pixel-perfect execution at every stage of the lifecycle.</p>
           </hgroup>
 
-          <div class="cards-container">
-            <div class="process-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-              <img src="images/process-img1.webp" class="img-fluid" alt="Strategy" />
-              <div class="card-left-bar">
-                <div class="card-label">Strategy &amp; Blueprinting <span>01</span></div>
+          <div className="cards-container">
+            <div className="process-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+              <img src="images/process-img1.webp" className="img-fluid" alt="Strategy" />
+              <div className="card-left-bar">
+                <div className="card-label">Strategy &amp; Blueprinting <span>01</span></div>
               </div>
             </div>
 
-            <div class="process-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-              <img src="images/process-img2.webp" class="img-fluid" alt="Engineering" />
-              <div class="card-left-bar">
-                <div class="card-label">Agile Engineering <span>02</span></div>
+            <div className="process-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <img src="images/process-img2.webp" className="img-fluid" alt="Engineering" />
+              <div className="card-left-bar">
+                <div className="card-label">Agile Engineering <span>02</span></div>
               </div>
             </div>
 
-            <div class="process-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
-              <img src="images/process-img3.webp" class="img-fluid" alt="Launch" />
-              <div class="card-left-bar">
-                <div class="card-label">Launch &amp; Optimization <span>03</span></div>
+            <div className="process-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <img src="images/process-img3.webp" className="img-fluid" alt="Launch" />
+              <div className="card-left-bar">
+                <div className="card-label">Launch &amp; Optimization <span>03</span></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="pull-trigger position-relative overflow-hidden">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-7">
-              <article class="trigger-content">
-                <h3 class="subHead" data-aos="fade-right" data-aos-duration="800">
-                  <figure><img src="images/subHead.webp" class="img-fluid" alt="icon" /></figure>
+      <section className="pull-trigger position-relative overflow-hidden">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-7">
+              <article className="trigger-content">
+                <h3 className="subHead" data-aos="fade-right" data-aos-duration="800">
+                  <figure><img src="images/subHead.webp" className="img-fluid" alt="icon" /></figure>
                   <span>Pull the Trigger!</span>
                 </h3>
-                <h2 class="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <h2 className="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                   Looking
                   <span>to
                     Elevate Your</span> Digital Presence?
@@ -756,27 +756,27 @@ export default function Home() {
                   consultation with us & discover how our cutting-edge mobile and web
                   development solutions
                   can transform your business.</p>
-                <a href="contact.php" class="themeBtn" data-aos="fade-right" data-aos-duration="1000"
+                <a href="contact.php" className="themeBtn" data-aos="fade-right" data-aos-duration="1000"
                   data-aos-delay="600">Let's Connect!</a>
               </article>
             </div>
-            <div class="col-md-5">
-              <figure class="trigger-img" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                <img src="images/trigger-img.webp" class="img-fluid" alt="img" />
+            <div className="col-md-5">
+              <figure className="trigger-img" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
+                <img src="images/trigger-img.webp" className="img-fluid" alt="img" />
               </figure>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="blog position-relative overflow-hidden">
-        <div class="container">
+      <section className="blog position-relative overflow-hidden">
+        <div className="container">
           <hgroup>
-            <h3 class="subHead" data-aos="fade-down" data-aos-duration="800">
-              <figure><img src="images/subHead.webp" class="img-fluid" alt="icon" /></figure>
+            <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
+              <figure><img src="images/subHead.webp" className="img-fluid" alt="icon" /></figure>
               <span>Our Blogs</span>
             </h3>
-            <h2 class="mainHead" data-aos="fade-up" data-aos-duration="1000">Expert Insights <br />
+            <h2 className="mainHead" data-aos="fade-up" data-aos-duration="1000">Expert Insights <br />
               Fo<span>r Smarter Digital</span> Marketing
             </h2>
             <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Lorem Ipsum is simply dummy text of
@@ -784,38 +784,38 @@ export default function Home() {
               industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
               and scrambled it to make a type specimen book.</p>
           </hgroup>
-          <div class="row" id="blogRow">
-            <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-              <article class="blog-card">
-                <figure><img src="images/blog-img1.webp" class="img-fluid" alt="img" /></figure>
+          <div className="row" id="blogRow">
+            <div className="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+              <article className="blog-card">
+                <figure><img src="images/blog-img1.webp" className="img-fluid" alt="img" /></figure>
                 <h4>Digital <br /> Marketing Strategy</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard</p>
-                <a href="blog-details.php" class="themeBtn">Read More</a>
+                <a href="blog-details.php" className="themeBtn">Read More</a>
               </article>
             </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-              <article class="blog-card">
-                <figure><img src="images/blog-img2.webp" class="img-fluid" alt="img" /></figure>
+            <div className="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <article className="blog-card">
+                <figure><img src="images/blog-img2.webp" className="img-fluid" alt="img" /></figure>
                 <h4>Search Engine <br /> Optimization (SEO)</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard</p>
-                <a href="blog-details.php" class="themeBtn">Read More</a>
+                <a href="blog-details.php" className="themeBtn">Read More</a>
               </article>
             </div>
-            <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
-              <article class="blog-card">
-                <figure><img src="images/blog-img3.webp" class="img-fluid" alt="img" /></figure>
+            <div className="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <article className="blog-card">
+                <figure><img src="images/blog-img3.webp" className="img-fluid" alt="img" /></figure>
                 <h4>Pay-Per <br /> Click Advertising (PPC)</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's standard</p>
-                <a href="blog-details.php" class="themeBtn">Read More</a>
+                <a href="blog-details.php" className="themeBtn">Read More</a>
               </article>
             </div>
 
           </div>
         </div>
-        <img src="images/app-img2.webp" class="img-fluid blog-img" alt="img" data-aos="fade-right"
+        <img src="images/app-img2.webp" className="img-fluid blog-img" alt="img" data-aos="fade-right"
           data-aos-duration="1500" data-aos-delay="600" />
       </section>
     </div>
