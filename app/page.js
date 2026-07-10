@@ -5,6 +5,8 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ProvenExp from "./components/ProvenExp";
+import Cta from "./components/Cta";
 
 export default function Home() {
 
@@ -425,105 +427,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="achievements position-relative overflow-hidden">
-        <div className="container">
-          <hgroup>
-            <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
-              <figure>
-                <img src="images/subHead.webp" className="img-fluid" alt="icon" />
-              </figure>
-              <span>Proven Excellence</span>
-            </h3>
-            <h2 className="mainHead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Awards <span>&
-              Recognitions</span></h2>
-            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">We don't just claim to build
-              high-performance digital assets—our track record proves it. MediaPlus IT
-              is consistently ranked among the top B2B development firms globally for engineering robust,
-              scalable, and ROI-driven technology solutions.</p>
-          </hgroup>
-        </div>
-
-        <div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
-          <div className="marquee-container">
-            <div className="marquee">
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img1.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>RightFirms</h3>
-                <p>Recognized for excellence in custom software and enterprise web development.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img2.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>GoodFirms</h3>
-                <p>Ranked among top-tier digital partners for driving measurable business growth.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img3.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>AppFirm Reviews</h3>
-                <p>Celebrated for engineering secure, high-retention native mobile applications.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img4.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>GoodFirms</h3>
-                <p>Awarded for superior UX/UI design and corporate visual identity architecture.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img5.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>Clutch</h3>
-                <p>Maintaining a 5-star rating for transparent, agile, and results-driven project delivery.</p>
-              </div>
-
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img1.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>RightFirms</h3>
-                <p>Recognized for excellence in custom software and enterprise web development.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img2.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>GoodFirms</h3>
-                <p>Ranked among top-tier digital partners for driving measurable business growth.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img3.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>AppFirm Reviews</h3>
-                <p>Celebrated for engineering secure, high-retention native mobile applications.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img4.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>GoodFirms</h3>
-                <p>Awarded for superior UX/UI design and corporate visual identity architecture.</p>
-              </div>
-              <div className="brand-icon">
-                <figure>
-                  <img src="images/brand-img5.webp" className="img-fluid brand-logo" alt="Brand" />
-                </figure>
-                <h3>Clutch</h3>
-                <p>Maintaining a 5-star rating for transparent, agile, and results-driven project delivery.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <img src="images/achievement-img.webp" className="img-fluid achievement-img" alt="Achievement" data-aos="fade-left"
-          data-aos-duration="1500" data-aos-delay="800" />
-      </section>
+      <ProvenExp />
 
       <section className="engineering position-relative overflow-hidden">
         <div className="container">
@@ -738,36 +642,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pull-trigger position-relative overflow-hidden">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-md-7">
-              <article className="trigger-content">
-                <h3 className="subHead" data-aos="fade-right" data-aos-duration="800">
-                  <figure><img src="images/subHead.webp" className="img-fluid" alt="icon" /></figure>
-                  <span>Pull the Trigger!</span>
-                </h3>
-                <h2 className="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                  Looking
-                  <span>to
-                    Elevate Your</span> Digital Presence?
-                </h2>
-                <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Schedule a free
-                  consultation with us & discover how our cutting-edge mobile and web
-                  development solutions
-                  can transform your business.</p>
-                <a href="contact.php" className="themeBtn" data-aos="fade-right" data-aos-duration="1000"
-                  data-aos-delay="600">Let's Connect!</a>
-              </article>
-            </div>
-            <div className="col-md-5">
-              <figure className="trigger-img" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                <img src="images/trigger-img.webp" className="img-fluid" alt="img" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Cta fromHome={true}/>
 
       <section className="blog position-relative overflow-hidden">
         <div className="container">

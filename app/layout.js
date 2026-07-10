@@ -1,4 +1,4 @@
-import { Raleway, Geist_Mono } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import AOSProvider from "./AOSProvider";
 import Header from "./components/Header";
@@ -10,10 +10,6 @@ const raleway = Raleway({
   display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Media Plus",
@@ -24,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${raleway.variable} ${geistMono.variable}`}
+      className={`${raleway.variable}`}
     >
       <head>
         {/* Bootstrap CSS */}

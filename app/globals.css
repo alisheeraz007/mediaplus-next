@@ -3,12 +3,6 @@
 /* Google Font */
 /* @import url(''); */
 
-/* Local Font */
-@font-face {
-  font-family: "Raleway";
-  src: url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-}
-
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -42,8 +36,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace
 }
 
 *,
@@ -53,7 +45,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: var(--font-raleway), sans-serif !important;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent
@@ -74,7 +66,7 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: var(--font-raleway), sans-serif !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -202,7 +194,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-family: var(--font-raleway), sans-serif !important;
   font-size: 1em
 }
 
@@ -262,7 +254,7 @@ optgroup,
 select,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: var(--font-raleway), sans-serif !important;
   font-size: inherit;
   line-height: inherit
 }
@@ -6717,7 +6709,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: var(--font-raleway), sans-serif !important;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6842,7 +6834,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: var(--font-raleway), sans-serif !important;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11079,7 +11071,7 @@ button.bg-dark:hover {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important
+  font-family: var(--font-raleway), sans-serif !important;
 }
 
 .text-justify {
@@ -32901,7 +32893,7 @@ body {
   position: relative;
   background: #fff;
   height: 100%;
-  font-family: "Raleway", serif !important;
+  font-family: var(--font-raleway), sans-serif !important;
 }
 
 section {
@@ -33028,7 +33020,6 @@ figure {
   font-weight: 500;
   color: #ffffff;
   letter-spacing: 2px;
-  font-family: Arial, sans-serif;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
@@ -33158,7 +33149,7 @@ figure {
 
 /* ===== LOGO - FULLY RESPONSIVE ===== */
 .pre-logo {
-  font-family: 'Bebas Neue', 'Impact', sans-serif;
+  font-family: var(--font-raleway), sans-serif !important;
   font-size: clamp(2rem, 10vw, 7rem);
   letter-spacing: clamp(0.1em, 0.2em, 0.25em);
   color: transparent;
@@ -33184,7 +33175,7 @@ figure {
   top: 0;
   left: 0;
   right: 0;
-  font-family: 'Bebas Neue', 'Impact', sans-serif;
+  font-family: var(--font-raleway), sans-serif !important;
   font-size: inherit;
   letter-spacing: inherit;
   line-height: inherit;
@@ -33305,7 +33296,7 @@ figure {
 
 /* ===== COUNTER - RESPONSIVE ===== */
 .pre-count {
-  font-family: 'Space Mono', 'Courier New', monospace;
+  font-family: var(--font-raleway), sans-serif !important;
   font-size: clamp(0.6rem, 2.5vw, 0.7rem);
   letter-spacing: clamp(0.2em, 0.3em, 0.3em);
   color: rgba(255, 255, 255, 0.2);
@@ -34168,7 +34159,7 @@ header {
   width: 160px;
   height: 160px;
   border-radius: 30px 0 30px 0px;
-  margin: 12px auto 30px;
+  margin: 12px auto 30px !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35918,7 +35909,7 @@ footer {
 }
 
 footer h3 {
-  color: #fff;
+  color: #fff !important;
   font-size: 1.813rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -36071,7 +36062,7 @@ footer .copyRight p:hover {
 .inner-banner article h4 {
   font-size: 1.875rem;
   font-weight: 400;
-  color: #fff;
+  color: #fff !important;
   transition: all 0.3s ease;
   margin-bottom: 2rem;
 }
@@ -36079,7 +36070,7 @@ footer .copyRight p:hover {
 .inner-banner article h1 {
   font-size: 5rem;
   font-weight: 700;
-  color: #fff;
+  color: #fff !important;
   transition: all 0.3s ease;
 }
 
@@ -36098,7 +36089,7 @@ footer .copyRight p:hover {
 }
 
 .inner-head {
-  color: var(--primary);
+  color: var(--primary) !important;
   font-size: 3rem;
   margin: 1rem 0;
 }
@@ -36108,7 +36099,7 @@ footer .copyRight p:hover {
 }
 
 .ceo-content .mainHead {
-  color: #fff;
+  color: #fff !important;
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -36120,7 +36111,7 @@ footer .copyRight p:hover {
 }
 
 .ceo-content h6 {
-  color: #fff;
+  color: #fff !important;
   font-size: 1.4rem;
 }
 
@@ -36216,13 +36207,13 @@ footer .copyRight p:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 22px;
+  padding: 28px 22px !important;
   background-color: var(--primary);
   max-width: 480px;
   width: 100%;
-  gap: 80px;
-  border-radius: 20px;
-  margin: 0 auto 3rem;
+  gap: 80px !important;
+  border-radius: 20px !important;
+  margin: 0 auto 3rem !important;
 }
 
 .web-app ul {
@@ -36388,13 +36379,13 @@ footer .copyRight p:hover {
 
 .contact-info .mainHead,
 .contact-form .mainHead {
-  color: #fff;
+  color: #fff !important;
   margin: 2rem 0;
 }
 
 .contact-info .subHead,
 .contact-form .subHead {
-  color: #fff;
+  color: #fff !important;
 }
 
 .contact-form form .form-control {
@@ -36424,12 +36415,12 @@ footer .copyRight p:hover {
 }
 
 .contacts-info .mainHead {
-  color: #fff;
+  color: #fff !important;
   margin: 2rem 0;
 }
 
 .contacts-info .subHead {
-  color: #fff;
+  color: #fff !important;
 }
 
 .social-icons {
@@ -36509,11 +36500,11 @@ footer .copyRight p:hover {
 
 .media-info ul li h4 {
   font-size: 1.5rem;
-  color: #fff;
+  color: #fff !important;
 }
 
 .follow-us {
-  color: #fff;
+  color: #fff !important;
   padding-top: 3rem;
   margin: 3rem 0;
   font-size: 3rem;
@@ -39231,4 +39222,27 @@ h6 {
 
 .slick-slide img {
   display: inline-block !important;
+}
+
+figure {
+  margin: 0 !important;
+}
+
+html,
+body {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  font-family: var(--font-raleway), sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: var(--font-raleway), sans-serif !important;
 }
