@@ -8,7 +8,7 @@ function Cta({fromHome}) {
                     <div className="col-md-7">
                         <article className="trigger-content">
                             <h3 className="subHead" data-aos="fade-right" data-aos-duration="800">
-                                <figure><img src="images/subHead.webp" className="img-fluid" alt="icon" /></figure>
+                                <figure><img src="/images/subHead.webp" className="img-fluid" alt="icon" /></figure>
                                 <span>Pull the Trigger!</span>
                             </h3>
                             <h2 className="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
@@ -26,7 +26,7 @@ function Cta({fromHome}) {
                     </div>
                     <div className="col-md-5">
                         <figure className="trigger-img" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                            <img src="images/trigger-img.webp" className="img-fluid" alt="img" />
+                            <img src="/images/trigger-img.webp" className="img-fluid" alt="img" />
                         </figure>
                     </div>
                 </div>

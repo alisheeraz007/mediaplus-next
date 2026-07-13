@@ -19,7 +19,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="overFlowXHidden">
       <section className="main-slider p-0" id="mainSlider">
         <div className="image-layer video-layer">
           <video autoPlay muted loop playsInline preload="true" controlsList="nodownload"
@@ -511,7 +511,7 @@ export default function Home() {
                   <span>Core Competencies</span>
                 </h3>
                 <h2 className="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Where
-                  <span>Strategy Meets</span> Engineering.
+                  <span> Strategy Meets</span> Engineering.
                 </h2>
                 <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">We don't just guess; we
                   execute with precision. MediaPlus combines deep technical knowledge

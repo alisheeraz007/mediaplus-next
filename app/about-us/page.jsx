@@ -7,11 +7,11 @@ function index() {
   return (
     <>
 
-      <div class="inner-banner">
+      <div className="inner-banner">
         <figure>
-          <img src="images/aboutHero.png" class="img-fluid" alt="img" />
+          <img src="images/aboutHero.png" className="img-fluid" alt="img" />
         </figure>
-        <div class="container">
+        <div className="container">
           <article>
             <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">We Are Best Creative Agency</h4>
             <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">About Us</h1>
@@ -19,17 +19,17 @@ function index() {
         </div>
       </div>
 
-      <section class="our-app position-relative overflow-hidden">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-7">
-              <div class="our-app-head">
-                <h3 class="subHead" data-aos="fade-right" data-aos-duration="800">
-                  <figure><img src="images/subHead.webp" class="img-fluid" alt="icon" /></figure>
+      <section className="our-app position-relative overflow-hidden">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-7">
+              <div className="our-app-head">
+                <h3 className="subHead" data-aos="fade-right" data-aos-duration="800">
+                  <figure><img src="images/subHead.webp" className="img-fluid" alt="icon" /></figure>
                   <span>Our App
                     Programming Company Help Your Business Grow?</span>
                 </h3>
-                <h2 class="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Who
+                <h2 className="mainHead" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Who
                   <span>We</span> Are
                 </h2>
                 <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Founded in 2019 in the
@@ -52,28 +52,28 @@ function index() {
                   are committed to:</p>
               </div>
             </div>
-            <div class="col-md-5">
+            <div className="col-md-5">
               <figure data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                <img src="images/app-img.webp" class="img-fluid" alt="" />
+                <img src="images/app-img.webp" className="img-fluid" alt="" />
               </figure>
             </div>
           </div>
         </div>
-        <img src="images/app-img2.webp" class="img-fluid app-img2" alt="image" data-aos="fade-right"
+        <img src="images/app-img2.webp" className="img-fluid app-img2" alt="image" data-aos="fade-right"
           data-aos-duration="1500" data-aos-delay="800" />
       </section>
 
-      <section class="leadership">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200">
-              <figure class="ceo-img">
-                <img src="images/yasir.webp" class="img-fluid" alt="img" />
+      <section className="leadership">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6" data-aos="fade-right" data-aos-duration="1200">
+              <figure className="ceo-img">
+                <img src="images/yasir.webp" className="img-fluid" alt="img" />
               </figure>
             </div>
-            <div class="col-md-6">
-              <article class="ceo-content">
-                <h2 class="mainHead" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">A
+            <div className="col-md-6">
+              <article className="ceo-content">
+                <h2 className="mainHead" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">A
                   Message <span>From <br />
                     Leadership</span></h2>
                 <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">Welcome to MediaPlus
@@ -88,7 +88,7 @@ function index() {
                   hospitality with TimeFlyz, we bring an 'Owner’s Mindset' to every project. Our goal is to
                   empower your business with solutions that are not only innovative but also scalable and
                   secure.</p>
-                <h4 class="inner-head" data-aos="fade-left" data-aos-duration="800" data-aos-delay="700">
+                <h4 className="inner-head" data-aos="fade-left" data-aos-duration="800" data-aos-delay="700">
                   Muhammad Yasir</h4>
                 <h6 data-aos="fade-left" data-aos-duration="800" data-aos-delay="800">CEO, MediaPlus Information
                   Technology</h6>
@@ -98,74 +98,74 @@ function index() {
         </div>
       </section>
 
-      <section class="achievement">
-        <div class="container">
+      <section className="achievement">
+        <div className="container">
           <hgroup>
-            <h3 class="subHead" data-aos="fade-up" data-aos-duration="800">
-              <figure><img src="images/subHead.webp" class="img-fluid" alt="icon" /></figure> <span>Achievements</span>
+            <h3 className="subHead" data-aos="fade-up" data-aos-duration="800">
+              <figure><img src="images/subHead.webp" className="img-fluid" alt="icon" /></figure> <span>Achievements</span>
             </h3>
-            <h2 class="mainHead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Trusted <span>by
+            <h2 className="mainHead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Trusted <span>by
               Industry</span> Leaders</h2>
             <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">We are proud to serve a diverse
               portfolio of clients across Real Estate, Healthcare, and Retail
               sectors</p>
           </hgroup>
         </div>
-        <div class="container-fluid p-0">
-          <div class="client-logos">
+        <div className="container-fluid p-0">
+          <div className="client-logos">
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
-              <img src="images/trusted-img1.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img1.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
-              <img src="images/trusted-img2.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img2.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
-              <img src="images/trusted-img3.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img3.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">
-              <img src="images/trusted-img4.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img4.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
-              <img src="images/trusted-img5.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img5.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600">
-              <img src="images/trusted-img6.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img6.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
-              <img src="images/trusted-img7.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img7.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="800">
-              <img src="images/trusted-img8.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img8.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="900">
-              <img src="images/trusted-img9.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img9.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000">
-              <img src="images/trusted-img10.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img10.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1100">
-              <img src="images/trusted-img11.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img11.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1200">
-              <img src="images/trusted-img12.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img12.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1300">
-              <img src="images/trusted-img13.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img13.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1400">
-              <img src="images/trusted-img14.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img14.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1500">
-              <img src="images/trusted-img15.webp" class="img-fluid" alt="Client Logo" />
+              <img src="images/trusted-img15.webp" className="img-fluid" alt="Client Logo" />
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1500">
               <a href="https://tabeebnow.com/home" target="_blank">
-                <img src="images/t_white_logo_eng.webp" class="img-fluid" alt="Client Logo" />
+                <img src="images/t_white_logo_eng.webp" className="img-fluid" alt="Client Logo" />
               </a>
             </figure>
             <figure data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1500">
               <a href="https://timeflyz.co/" target="_blank">
-                <img src="images/timesfly.webp" class="img-fluid" alt="Client Logo" />
+                <img src="images/timesfly.webp" className="img-fluid" alt="Client Logo" />
               </a>
             </figure>
           </div>

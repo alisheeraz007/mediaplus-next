@@ -1,0 +1,279 @@
+.subServicesPage {
+    .inner-banner {
+        h4 {
+            font-size: 30px !important;
+        }
+
+        h1 {
+            font-size: 70px !important;
+        }
+
+        p {
+            width: 90%;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        figure img {
+            height: 668px;
+        }
+
+        .container {
+            width: 50%;
+            top: 30%;
+        }
+    }
+
+    .section1 {
+        .row {
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+
+            span {
+                width: 44.7px;
+                height: 3.72px;
+                background: linear-gradient(130deg, #E8006E 3.67%, #B5009D 36.1%, #7B00D4 68.53%, #5500F0 96.33%);
+                border-radius: 50px;
+                margin: 20px 0;
+                display: block;
+            }
+        }
+
+        h4 {
+            color: #C500E1 !important;
+            font-size: 16px;
+        }
+
+        .countsRow {
+            row-gap: 24px;
+        }
+
+        .countCard {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            height: 98.71px;
+            background: linear-gradient(130deg, rgba(232, 0, 110, 0.08) 3.67%, rgba(123, 0, 212, 0.08) 96.33%);
+            border: 0.931225px solid rgba(180, 100, 220, 0.15);
+            border-radius: 14.8996px;
+            padding: 0 30px;
+
+            h3,
+            p {
+                margin: 0;
+            }
+
+            h3 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        p {
+            color: #6A6A6A;
+            font-size: 16px;
+        }
+    }
+
+    .sectionService {
+        background-color: #F5F0FF;
+
+        .themeBtn {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            column-gap: 10px;
+            width: max-content;
+            margin-top: 30px !important;
+        }
+
+        h4 {
+            color: #C500E1 !important;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .row {
+            align-items: center;
+        }
+
+        .iconImage {
+            width: 60px;
+            height: auto;
+        }
+
+        h3 {
+            font-size: 36px;
+            margin-top: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+
+            span {
+                color: var(--primary);
+            }
+        }
+
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+                font-size: 16px;
+                margin: 10px 0;
+            }
+        }
+
+        .countDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            width: 36.21px;
+            height: 26.31px;
+            background: rgba(197, 0, 225, 0.08);
+            border: 0.931225px solid rgba(197, 0, 225, 0.19);
+            border-radius: 93.1225px;
+            font-size: 12px;
+            color: #C500E1;
+            font-weight: 600;
+        }
+
+        p {
+            color: #6A6A6A;
+            font-size: 16px;
+        }
+
+        .imgDiv {
+            img {
+                width: 100%;
+            }
+        }
+
+        hr {
+            margin: 100px 0;
+        }
+    }
+
+    .sectionProcess {
+        padding: 100px 0;
+
+        h4 {
+            color: #C500E1 !important;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .processCardMain {
+            display: flex;
+            justify-content: center;
+
+            .processCard {
+                width: 25%;
+
+                .countDiv {
+                    display: flex;
+                    align-items: center;
+
+                    h3 {
+                        background-color: #CE00EC;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0;
+                        border-radius: 15px;
+                        font-size: 13.97px;
+                        color: #ffff !important;
+                        font-weight: 700;
+                    }
+
+                    span {
+                        display: block;
+                        width: calc(100% - 50px);
+                        height: 2px;
+                        background: linear-gradient(90deg, rgba(232, 0, 110, 0.333) 0%, rgba(0, 0, 0, 0) 100%);
+                    }
+                }
+
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-align: left;
+                    margin: 10px 0;
+                    margin-top: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
+
+.innerBannerSub {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .container {
+        position: initial;
+        width: 100% !important;
+        margin-top: 50px;
+
+        h4 {
+            font-weight: 400;
+            color: #fff !important;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            border: 1px solid #fff;
+            width: max-content;
+            font-size: 12px !important;
+            padding: 10px 15px;
+            border-radius: 50px;
+            background-color: #ffffff14;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+        }
+
+        h1 {
+            font-size: 60px !important;
+            font-weight: 700;
+            color: #fff !important;
+            transition: all 0.3s ease;
+        }
+    }
+}

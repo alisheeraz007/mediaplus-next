@@ -6,11 +6,11 @@ function page() {
     return (
         <>
 
-            <div class="inner-banner">
+            <div className="inner-banner">
                 <figure>
-                    <img src="images/serviceHero.png" class="img-fluid" alt="img" />
+                    <img src="images/serviceHero.png" className="img-fluid" alt="img" />
                 </figure>
-                <div class="container">
+                <div className="container">
                     <article>
                         <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Enterprise Solutions</h4>
                         <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">Our Services</h1>
@@ -18,16 +18,16 @@ function page() {
                 </div>
             </div>
 
-            <section class="branding position-relative overflow-hidden">
-                <div class="container">
+            <section className="branding position-relative overflow-hidden">
+                <div className="container">
                     <hgroup>
-                        <h3 class="subHead" data-aos="fade-down" data-aos-duration="800">
+                        <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
                             <figure>
-                                <img src="images/subHead-img2.webp" class="img-fluid" alt="icon" />
+                                <img src="images/subHead-img2.webp" className="img-fluid" alt="icon" />
                             </figure>
                             <span>End-to-End Solutions</span>
                         </h3>
-                        <h2 class="mainHead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Transforming
+                        <h2 className="mainHead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Transforming
                             Complex <br />
                             Challenges into Digital Assets.</h2>
                         <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Bridging the gap between creative
@@ -35,15 +35,15 @@ function page() {
                             and scalable digital experiences designed to give your business a competitive edge.</p>
                     </hgroup>
 
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
+                    <div className="row">
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
                             data-aos-delay="300">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>Development Services</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon1.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon1.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             From custom software engineering to high-performance web development, we build
@@ -53,18 +53,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="branding-and-graphic-design.php" class="themeBtn">View More</a>
+                                <a href="/services/development-services" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
                             data-aos-delay="400">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>AI Solutions</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon2.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon2.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             Automate your daily business tasks and customer conversations with smart AI systems.
@@ -75,18 +75,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="website-and-digital-development.php" class="themeBtn">View More</a>
+                                <a href="website-and-digital-development.php" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
                             data-aos-delay="500">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>Mobile App Development</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon3.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon3.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             We design and develop fast, secure native iOS and Android apps. From internal tools
@@ -97,18 +97,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="mobile-app-development.php" class="themeBtn">View More</a>
+                                <a href="mobile-app-development.php" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="800"
                             data-aos-delay="600">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>Cloud & Infrastructure Solutions</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon4.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon4.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             Move your business operations securely to the cloud with minimal downtime. We handle
@@ -117,18 +117,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="digital-marketing-and-promotion.php" class="themeBtn">View More</a>
+                                <a href="digital-marketing-and-promotion.php" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
                             data-aos-delay="300">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>Cyber Security</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon1.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon1.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             We protect your business data and networks from modern threats. Through deep cyber
@@ -137,18 +137,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="branding-and-graphic-design.php" class="themeBtn">View More</a>
+                                <a href="branding-and-graphic-design.php" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
                             data-aos-delay="400">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>ERP & CRM</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon2.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon2.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             We integrate custom ERP systems and CRMs to keep your business operations organized.
@@ -157,18 +157,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="website-and-digital-development.php" class="themeBtn">View More</a>
+                                <a href="website-and-digital-development.php" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
                             data-aos-delay="500">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>Managed IT Services</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon3.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon3.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             We keep your daily tech running reliably with proactive managed IT support. We
@@ -177,18 +177,18 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="mobile-app-development.php" class="themeBtn">View More</a>
+                                <a href="mobile-app-development.php" className="themeBtn">View More</a>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="800"
+                        <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="800"
                             data-aos-delay="600">
-                            <div class="brand-card">
-                                <div class="d-flex flex-column justify-content-between h-100">
+                            <div className="brand-card">
+                                <div className="d-flex flex-column justify-content-between h-100">
                                     <h3>Digital Marketing</h3>
                                     <div>
                                         <figure>
-                                            <img src="images/brand-icon4.webp" class="img-fluid" alt="icon" />
+                                            <img src="images/brand-icon4.webp" className="img-fluid" alt="icon" />
                                         </figure>
                                         <p>
                                             Our data-driven digital marketing services elevate your online presence. We manage
@@ -197,65 +197,65 @@ function page() {
                                         </p>
                                     </div>
                                 </div>
-                                <a href="digital-marketing-and-promotion.php" class="themeBtn">View More</a>
+                                <a href="digital-marketing-and-promotion.php" className="themeBtn">View More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="award-sec position-relative overflow-hidden">
-                <div class="container-fluid p-0">
-                    <div class="row no-gutters">
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+            <section className="award-sec position-relative overflow-hidden">
+                <div className="container-fluid p-0">
+                    <div className="row no-gutters">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
                             <figure>
-                                <img src="images/award-img1.png" class="img-fluid award-img" alt="img" />
+                                <img src="images/award-img1.png" className="img-fluid award-img" alt="img" />
                             </figure>
                         </div>
-                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
                             <figure>
-                                <img src="images/award-img2.png" class="img-fluid award-img" alt="img" />
+                                <img src="images/award-img2.png" className="img-fluid award-img" alt="img" />
                             </figure>
                         </div>
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
                             <figure>
-                                <img src="images/award-img3.png" class="img-fluid award-img" alt="img" />
+                                <img src="images/award-img3.png" className="img-fluid award-img" alt="img" />
                             </figure>
                         </div>
-                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
                             <figure>
-                                <img src="images/award-img4.png" class="img-fluid award-img" alt="img" />
+                                <img src="images/award-img4.png" className="img-fluid award-img" alt="img" />
                             </figure>
                         </div>
                     </div>
                 </div>
 
-                <div class="award-circle" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="500">
+                <div className="award-circle" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="500">
                     <a href="/portfolio.php">
-                        <div class="award-content">
+                        <div className="award-content">
                             <h3>Award<br />Winning<br />Portfolio</h3>
                             <p>View All Portfolio</p>
                         </div>
-                        <img src="images/award-img.webp" alt="image" class="rotate-circle" />
+                        <img src="images/award-img.webp" alt="image" className="rotate-circle" />
                     </a>
                 </div>
             </section>
 
-            <section class="hiring">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200">
+            <section className="hiring">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1200">
                             <figure>
-                                <img src="images/section7img.webp" class="img-fluid" alt="img" />
+                                <img src="images/section7img.webp" className="img-fluid" alt="img" />
                             </figure>
                         </div>
-                        <div class="col-md-6">
-                            <article class="hiring-content">
-                                <h3 class="subHead" data-aos="fade-left" data-aos-duration="800">
+                        <div className="col-md-6">
+                            <article className="hiring-content">
+                                <h3 className="subHead" data-aos="fade-left" data-aos-duration="800">
                                     <figure><img src="images/subHead.webp" alt="img" /></figure>
                                     <span>Strategic Partnership</span>
                                 </h3>
-                                <h2 class="mainHead" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Stop
+                                <h2 className="mainHead" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Stop
                                     Hiring <br />
                                     <span>Vendors. Start Hiring</span> Partners.
                                 </h2>
@@ -267,7 +267,7 @@ function page() {
                                     secure
                                     your market share.
                                 </p>
-                                <a href="contact.php" class="themeBtn" data-aos="fade-left" data-aos-duration="800"
+                                <a href="contact.php" className="themeBtn" data-aos="fade-left" data-aos-duration="800"
                                     data-aos-delay="600">Book Your Strategy Session</a>
                             </article>
                         </div>

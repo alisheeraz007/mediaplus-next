@@ -43,7 +43,7 @@ function Header() {
                 <nav className="navbar navbar-expand-lg p-0">
                     <div className="container">
                         <a className="navbar-brand" href="/" data-aos="fade-right" data-aos-duration="1000">
-                            <img src="images/logo.webp" alt="img" />
+                            <img src="/images/logo.webp" alt="img" />
                         </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu"
                             aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,19 +59,19 @@ function Header() {
                                     <a className="nav-link" href="about-us">About Us</a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
-                                    <a className="nav-link" href="services">Our Services</a>
+                                    <a className="nav-link" href="/services">Our Services</a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
-                                    <a className="nav-link" href="portfolio">Portfolio</a>
+                                    <a className="nav-link" href="/portfolio">Portfolio</a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
-                                    <a className="nav-link" href="case-study">Case Studies</a>
+                                    <a className="nav-link" href="/case-study">Case Studies</a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
-                                    <a className="nav-link" href="blog">Blogs</a>
+                                    <a className="nav-link" href="/blog">Blogs</a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
-                                    <a className="nav-link" href="contact">Contact</a>
+                                    <a className="nav-link" href="/contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
