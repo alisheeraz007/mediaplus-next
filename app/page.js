@@ -104,239 +104,208 @@ export default function Home() {
           </hgroup>
 
           <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-right" data-aos-duration="800"
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
               data-aos-delay="300">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
-                    <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    Logo Design
-                    <span className="color1">
-                      Branding
-                    </span>
-                  </h3>
-                  <p>
-                    Distinctive marks that crystallise your brand identity into a single, unforgettable symbol.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>Development Services</h3>
+                    <p>
+                      From custom software engineering to high-performance web development, we build
+                      platforms
+                      and enterprise e-commerce solutions that look great, handle complex logic, and scale
+                      smoothly as your company grows.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color1">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#E8006E" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/development-services" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+              data-aos-delay="400">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#9B00C2" fillOpacity="0.094" />
-                    <path d="M35.523 16.6499H17.7612C16.535 16.6499 15.541 17.6439 15.541 18.8701V29.9713C15.541 31.1975 16.535 32.1915 17.7612 32.1915H35.523C36.7492 32.1915 37.7433 31.1975 37.7433 29.9713V18.8701C37.7433 17.6439 36.7492 16.6499 35.523 16.6499Z" stroke="#9B00C2" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M22.2021 36.6299H31.083" stroke="#9B00C2" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M26.6426 32.1914V36.6319" stroke="#9B00C2" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    Website Design
-                    <span className="color2">
-                      Digital
-                    </span>
-                  </h3>
-                  <p>
-                    Pixel-perfect interfaces that balance bold aesthetics with frictionless user experience.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>AI Solutions</h3>
+                    <p>
+                      Automate your daily business tasks and customer conversations with smart AI systems.
+                      We
+                      build practical AI chatbots, AI voice agents, and customer support tools that cut
+                      down
+                      your manual workload.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color2">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#9B00C2" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/ai-solutions" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+              data-aos-delay="500">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#5500F0" fillOpacity="0.094" />
-                    <path d="M31.084 27.7545L36.8821 31.6199C36.9657 31.6755 37.0628 31.7074 37.1631 31.7122C37.2634 31.717 37.3631 31.6945 37.4516 31.6472C37.5401 31.5998 37.6141 31.5293 37.6657 31.4431C37.7173 31.357 37.7446 31.2585 37.7447 31.1581V22.0596C37.7447 21.962 37.7189 21.866 37.67 21.7815C37.6211 21.6969 37.5508 21.6268 37.4661 21.5782C37.3814 21.5295 37.2854 21.5041 37.1877 21.5044C37.0901 21.5047 36.9942 21.5308 36.9099 21.58L31.084 24.9792" stroke="#5500F0" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M28.8633 19.9722H17.7622C16.536 19.9722 15.542 20.9662 15.542 22.1924V31.0733C15.542 32.2995 16.536 33.2935 17.7622 33.2935H28.8633C30.0895 33.2935 31.0836 32.2995 31.0836 31.0733V22.1924C31.0836 20.9662 30.0895 19.9722 28.8633 19.9722Z" stroke="#5500F0" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    Video & Photoshoot
-                    <span className="color3">
-                      Media
-                    </span>
-                  </h3>
-                  <p>
-                    High-production visual storytelling — from brand films to editorial photography.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>Mobile App Development</h3>
+                    <p>
+                      We design and develop fast, secure native iOS and Android apps. From internal tools
+                      for
+                      your team to client-facing mobile platforms, we ensure a smooth user experience on
+                      every
+                      screen.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color3">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#5500F0" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/mobile-app-development" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-left" data-aos-duration="800"
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="800"
               data-aos-delay="600">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#B5009D" fillOpacity="0.094" />
-                    <path d="M16.6514 25.5227L36.6334 19.9722V33.2935L16.6514 28.8531V25.5227Z" stroke="#B5009D" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M26.1986 31.973C26.0819 32.3957 25.8832 32.7914 25.6136 33.1373C25.3441 33.4833 25.0091 33.7728 24.6277 33.9893C24.2462 34.2057 23.8259 34.345 23.3907 34.399C22.9555 34.453 22.5139 34.4208 22.0911 34.3042C21.6684 34.1876 21.2727 33.9888 20.9268 33.7193C20.5808 33.4497 20.2913 33.1147 20.0748 32.7333C19.8584 32.3519 19.7191 31.9316 19.6651 31.4964C19.6111 31.0611 19.6433 30.6195 19.7599 30.1968" stroke="#B5009D" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    Digital Marketing
-                    <span className="color4">
-                      Growth
-                    </span>
-                  </h3>
-                  <p>
-                    Data-led campaigns that grow awareness, drive qualified traffic, and convert.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>Cloud & Infrastructure Solutions</h3>
+                    <p>
+                      Move your business operations securely to the cloud with minimal downtime. We handle
+                      everything from AWS and Azure management to setting up Microsoft 365 and Google
+                      Workspace environments.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color4">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#B5009D" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/cloud-and-infrastructure-solutions" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-right" data-aos-duration="800"
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
               data-aos-delay="300">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
-                    <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    S.E.O Service
-                    <span className="color1">
-                      Branding
-                    </span>
-                  </h3>
-                  <p>
-                    Distinctive marks that crystallise your brand identity into a single, unforgettable symbol.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>Cyber Security</h3>
+                    <p>
+                      We protect your business data and networks from modern threats. Through deep cyber
+                      security audits and penetration testing, we find vulnerabilities and secure your
+                      infrastructure before problems happen.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color1">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#E8006E" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/cyber-security" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+              data-aos-delay="400">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#9B00C2" fillOpacity="0.094" />
-                    <path d="M35.523 16.6499H17.7612C16.535 16.6499 15.541 17.6439 15.541 18.8701V29.9713C15.541 31.1975 16.535 32.1915 17.7612 32.1915H35.523C36.7492 32.1915 37.7433 31.1975 37.7433 29.9713V18.8701C37.7433 17.6439 36.7492 16.6499 35.523 16.6499Z" stroke="#9B00C2" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M22.2021 36.6299H31.083" stroke="#9B00C2" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M26.6426 32.1914V36.6319" stroke="#9B00C2" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    App Development
-                    <span className="color2">
-                      Digital
-                    </span>
-                  </h3>
-                  <p>
-                    Pixel-perfect interfaces that balance bold aesthetics with frictionless user experience.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>ERP & CRM</h3>
+                    <p>
+                      We integrate custom ERP systems and CRMs to keep your business operations organized.
+                      We set up tailored payroll software, HR systems, accounting platforms, and POS tools
+                      to streamline your entire corporate workflow.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color2">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#9B00C2" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/erp-and-crm" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-up" data-aos-duration="800"
+              data-aos-delay="500">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#5500F0" fillOpacity="0.094" />
-                    <path d="M31.084 27.7545L36.8821 31.6199C36.9657 31.6755 37.0628 31.7074 37.1631 31.7122C37.2634 31.717 37.3631 31.6945 37.4516 31.6472C37.5401 31.5998 37.6141 31.5293 37.6657 31.4431C37.7173 31.357 37.7446 31.2585 37.7447 31.1581V22.0596C37.7447 21.962 37.7189 21.866 37.67 21.7815C37.6211 21.6969 37.5508 21.6268 37.4661 21.5782C37.3814 21.5295 37.2854 21.5041 37.1877 21.5044C37.0901 21.5047 36.9942 21.5308 36.9099 21.58L31.084 24.9792" stroke="#5500F0" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M28.8633 19.9722H17.7622C16.536 19.9722 15.542 20.9662 15.542 22.1924V31.0733C15.542 32.2995 16.536 33.2935 17.7622 33.2935H28.8633C30.0895 33.2935 31.0836 32.2995 31.0836 31.0733V22.1924C31.0836 20.9662 30.0895 19.9722 28.8633 19.9722Z" stroke="#5500F0" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    Financial Services
-                    <span className="color3">
-                      Media
-                    </span>
-                  </h3>
-                  <p>
-                    High-production visual storytelling — from brand films to editorial photography.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>Managed IT Services</h3>
+                    <p>
+                      We keep your daily tech running reliably with proactive managed IT support. We
+                      provide secure document management systems and comprehensive annual maintenance
+                      contracts (AMC) tailored to protect your corporate infrastructure.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color3">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#5500F0" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/managed-it-services" className="themeBtn">View More</a>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="fade-left" data-aos-duration="800"
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="800"
               data-aos-delay="600">
               <div className="brand-card">
-                <div>
-                  <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#B5009D" fillOpacity="0.094" />
-                    <path d="M16.6514 25.5227L36.6334 19.9722V33.2935L16.6514 28.8531V25.5227Z" stroke="#B5009D" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M26.1986 31.973C26.0819 32.3957 25.8832 32.7914 25.6136 33.1373C25.3441 33.4833 25.0091 33.7728 24.6277 33.9893C24.2462 34.2057 23.8259 34.345 23.3907 34.399C22.9555 34.453 22.5139 34.4208 22.0911 34.3042C21.6684 34.1876 21.2727 33.9888 20.9268 33.7193C20.5808 33.4497 20.2913 33.1147 20.0748 32.7333C19.8584 32.3519 19.7191 31.9316 19.6651 31.4964C19.6111 31.0611 19.6433 30.6195 19.7599 30.1968" stroke="#B5009D" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-
-                  <h3>
-                    Branding Services
-                    <span className="color4">
-                      Growth
-                    </span>
-                  </h3>
-                  <p>
-                    Data-led campaigns that grow awareness, drive qualified traffic, and convert.
-                  </p>
+                <div className="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 13.3214C0 5.96418 5.96417 0 13.3214 0H39.9641C47.3212 0 53.2854 5.96417 53.2854 13.3214V39.9641C53.2854 47.3212 47.3212 53.2854 39.9641 53.2854H13.3214C5.96418 53.2854 0 47.3212 0 39.9641V13.3214Z" fill="#E8006E" fillOpacity="0.094" />
+                      <path d="M28.308 21.0823C28.6145 21.0823 28.863 20.8338 28.863 20.5272C28.863 20.2207 28.6145 19.9722 28.308 19.9722C28.0014 19.9722 27.7529 20.2207 27.7529 20.5272C27.7529 20.8338 28.0014 21.0823 28.308 21.0823Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M32.7484 25.5276C33.055 25.5276 33.3035 25.2791 33.3035 24.9725C33.3035 24.666 33.055 24.4175 32.7484 24.4175C32.4419 24.4175 32.1934 24.666 32.1934 24.9725C32.1934 25.2791 32.4419 25.5276 32.7484 25.5276Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M22.7572 22.1921C23.0638 22.1921 23.3123 21.9436 23.3123 21.6371C23.3123 21.3305 23.0638 21.082 22.7572 21.082C22.4507 21.082 22.2021 21.3305 22.2021 21.6371C22.2021 21.9436 22.4507 22.1921 22.7572 22.1921Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M20.5375 27.7468C20.844 27.7468 21.0925 27.4983 21.0925 27.1918C21.0925 26.8852 20.844 26.6367 20.5375 26.6367C20.2309 26.6367 19.9824 26.8852 19.9824 27.1918C19.9824 27.4983 20.2309 27.7468 20.5375 27.7468Z" fill="#E8006E" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M26.6431 15.5405C20.5375 15.5405 15.542 20.536 15.542 26.6417C15.542 32.7473 20.5375 37.7428 26.6431 37.7428C27.6711 37.7428 28.4726 36.9146 28.4726 35.8689C28.4726 35.3838 28.2728 34.942 27.9875 34.62C27.6655 34.2992 27.5012 33.8962 27.5012 33.3712C27.497 33.1268 27.542 32.8842 27.6336 32.6576C27.7252 32.4311 27.8614 32.2252 28.0342 32.0525C28.207 31.8797 28.4128 31.7434 28.6394 31.6519C28.8659 31.5603 29.1086 31.5153 29.3529 31.5195H31.5687C34.9556 31.5195 37.7354 28.7409 37.7354 25.3539C37.7054 19.9943 32.7054 15.5405 26.6431 15.5405Z" stroke="#E8006E" strokeWidth="1.77618" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <h3>Digital Marketing</h3>
+                    <p>
+                      Our data-driven digital marketing services elevate your online presence. We manage
+                      your strategy across SEO, Google Ads, Meta paid media, content marketing, and
+                      premium branding & creative design.
+                    </p>
+                  </div>
                 </div>
-                <a href="branding-and-graphic-design.php" className="themeBtn color4">
-                  Learn more
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.99512 9.98929L8.32546 6.65895L4.99512 3.32861" stroke="#B5009D" strokeWidth="1.38764" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </a>
+                <a href="/services/digital-marketing" className="themeBtn">View More</a>
               </div>
             </div>
           </div>
@@ -966,7 +935,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <Cta fromHome={"abc"} />
 
     </div >
