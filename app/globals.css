@@ -33034,7 +33034,7 @@ header {
 }
 
 .brand-card .themeBtn:hover {
-  background-color: transparent;
+  background: transparent !important;
 }
 
 .brand-card .themeBtn.color1 {
