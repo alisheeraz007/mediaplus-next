@@ -56,7 +56,7 @@ function Header() {
                                     <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
-                                    <a className="nav-link" href="about-us">About Us</a>
+                                    <a className="nav-link" href="/about-us">About Us</a>
                                 </li>
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
                                     <a className="nav-link" href="/services">Our Services</a>

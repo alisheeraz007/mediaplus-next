@@ -43,15 +43,15 @@ function Footer() {
                         <ul className="quick-list">
                             <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="300"><a href="/"><i
                                 className="fal fa-long-arrow-right"></i> Home</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="400"><a href="about-us.php"><i
+                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="400"><a href="/about-us"><i
                                 className="fal fa-long-arrow-right"></i> About Us</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="portfolio.php"><i
+                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="/portfolio"><i
                                 className="fal fa-long-arrow-right"></i> Our Portfolio</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="case-study.php"><i
+                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="/case-study"><i
                                 className="fal fa-long-arrow-right"></i> Case Studies</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="blog.php"><i
+                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="/blog"><i
                                 className="fal fa-long-arrow-right"></i> Blogs</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="600"><a href="contact.php"><i
+                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="600"><a href="/contact"><i
                                 className="fal fa-long-arrow-right"></i> Let' Connect</a></li>
                         </ul>
                     </div>
