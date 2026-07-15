@@ -33035,6 +33035,7 @@ header {
 
 .brand-card .themeBtn:hover {
   background: transparent !important;
+  box-shadow: none !important;
 }
 
 .brand-card .themeBtn.color1 {
