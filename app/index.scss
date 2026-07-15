@@ -277,3 +277,113 @@
         }
     }
 }
+
+.featuredWork {
+    background-color: #02060A;
+    position: relative;
+
+    .stickyDiv {
+        position: sticky;
+        top: 100px;
+
+        .circleBtn {
+            cursor: pointer;
+        }
+
+        .circleBtn .purpleDot {
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+
+        .circleBtn:hover .purpleDot {
+            x: 0;
+            y: 0;
+            width: 125;
+            height: 125;
+            rx: 62.5;
+        }
+
+        h2 {
+            color: #ffff !important;
+            line-height: 80px;
+        }
+
+        .badgeDivMain {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            margin-top: 40px;
+
+            .badgeDiv {
+                padding: 5px 10px;
+                border: 1px solid #fff;
+                color: #ffff;
+                border-radius: 3px;
+                font-size: 12px;
+            }
+        }
+
+        hr {
+            border-color: #ffff;
+            width: 60%;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .scrollDiv {
+        .awardCardMain {
+            margin-bottom: 50px;
+
+            img {
+                width: 100%;
+                border-radius: 12px;
+            }
+
+            .textDiv {
+                .textDiv1 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 30px;
+
+                    h2 {
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: #fff !important;
+                    }
+
+                    .badgeDivMain {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+
+                        .badgeDiv {
+                            padding: 5px 10px;
+                            border: 1px solid #fff;
+                            color: #ffff;
+                            border-radius: 3px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                h4 {
+                    font-size: 20px;
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+    overflow-y: visible !important;
+}
+
+.achievements {
+    background-color: #fff;
+    padding-top: 150px;
+}

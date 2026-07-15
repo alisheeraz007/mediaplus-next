@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <div className="header-top">
+            {/* <div className="header-top">
                 <div className="container">
                     <div className="row justify-content-lg-between">
                         <div className="col-md-3" data-aos="fade-right" data-aos-duration="800">
@@ -37,7 +37,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <header>
                 <nav className="navbar navbar-expand-lg p-0">

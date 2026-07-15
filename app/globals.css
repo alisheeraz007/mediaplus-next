@@ -8739,7 +8739,8 @@ button.bg-dark:hover {
 }
 
 .overflow-hidden {
-  overflow: hidden !important
+  overflow: hidden !important;
+  overflow-y: visible !important;
 }
 
 .position-static {
@@ -31718,7 +31719,7 @@ html {
 body {
   position: relative;
   background: #fff;
-  height: 100%;
+  height: auto;
   font-family: var(--font-raleway), sans-serif !important;
 }
 
@@ -32007,13 +32008,13 @@ figure {
   line-height: inherit;
   color: var(--white);
   white-space: inherit;
-  clip-path: inset(100% 0 0 0);
-  transition: clip-path 1.2s cubic-bezier(0.76, 0, 0.24, 1);
+  clipPath: inset(100% 0 0 0);
+  transition: clipPath 1.2s cubic-bezier(0.76, 0, 0.24, 1);
   text-align: center;
 }
 
 .pre-logo-fill.reveal {
-  clip-path: inset(0% 0 0 0);
+  clipPath: inset(0% 0 0 0);
 }
 
 /* ===== LOADER RING - SCALES PERFECTLY ===== */
@@ -32536,13 +32537,13 @@ figure {
 .navbar-toggler {
   border: none;
   background: transparent;
-  color: #fff;
+  color: #fff !important;
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
 
 .navbar-toggler:hover {
-  color: var(--primary);
+  color: var(--primary)
 }
 
 /* Navigation Items */
@@ -32694,7 +32695,7 @@ header {
   right: 0;
   margin: 0 auto;
   z-index: 111;
-  top: 80px;
+  top: 0;
   width: 100%;
   padding: 1rem 0;
   transition: 0.3s ease-in-out;
@@ -32736,6 +32737,7 @@ header {
 
 .image-layer {
   position: relative;
+  height: 100%;
 }
 
 .image-layer video {
@@ -32968,20 +32970,86 @@ header {
 }
 
 .brand-card {
-  text-align: center;
   background: #fff;
   border-radius: 20px;
-  padding: 50px 30px 40px;
-  height: 100%;
+  padding: 30px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1rem;
+  margin-top: 24px;
 }
 
 .brand-card h3 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.brand-card h3 span {
+  display: block;
+  font-size: 10px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border-radius: 5.71px;
+}
+
+.brand-card h3 span.color1 {
+  background-color: #E8006E15;
+  color: #E8006E;
+}
+
+.brand-card h3 span.color2 {
+  background-color: #9B00C215;
+  color: #9B00C2;
+}
+
+.brand-card h3 span.color3 {
+  background-color: #5500F015;
+  color: #5500F0;
+}
+
+.brand-card h3 span.color4 {
+  background-color: #B5009D15;
+  color: #B5009D;
+}
+
+.brand-card p {
+  color: #7A5F9A;
+  font-size: 13px;
+}
+
+.brand-card .themeBtn {
+  background-color: transparent;
+  color: #E8006E;
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.brand-card .themeBtn.color1 {
+  color: #E8006E;
+}
+
+.brand-card .themeBtn.color2 {
+  color: #9B00C2;
+}
+
+.brand-card .themeBtn.color3 {
+  color: #5500F0;
+}
+
+.brand-card .themeBtn.color4 {
+  color: #B5009D;
+}
+
+.brand-card .themeBtn::before {
+  display: none;
 }
 
 .brand-card figure {
@@ -32995,13 +33063,8 @@ header {
   justify-content: center;
 }
 
-.brand-card p {
-  font-size: 16px;
-  color: #000;
-}
-
 .branding .row {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .branding hgroup .mainHead {
@@ -33290,9 +33353,15 @@ header {
 /* OUR SUCCESS SECTION START */
 
 .our-success {
+  background-color: #fff;
+  padding: 5rem 0;
+  margin-bottom: 0;
+}
+
+.our-success.trusted{
   background: url(/images/our-success.webp) no-repeat center center/cover;
-  padding: 5rem 0 0rem;
-  margin-bottom: -5rem;
+  padding: 5rem 0 0;
+  margin-bottom: -82px;
 }
 
 .our-success hgroup {
@@ -33302,17 +33371,17 @@ header {
 
 .our-success hgroup .subHead {
   text-align: center;
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .our-success hgroup .mainHead {
-  color: #fff !important;
+  color: #000 !important;
   width: 60%;
   margin: 1rem auto;
 }
 
 .our-success hgroup p {
-  color: #fff;
+  color: #000;
   width: 60%;
   margin: 1rem auto 0;
 }
@@ -33331,7 +33400,7 @@ header {
 .success-card h4 {
   font-size: 24px;
   font-weight: 700;
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .our-client {
@@ -33396,7 +33465,7 @@ header {
 
 .testimonial hgroup p {
   color: #000;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .testimonial-card {
@@ -33636,7 +33705,19 @@ header {
 /* ACHIEVEMENTS SECTION END */
 /* ENERGY SECTION START */
 .engineering {
-  background-color: #F6F6F6;
+  background: url(/images/our-success.webp) no-repeat center center/cover;
+}
+
+.engineering h2{
+  color: #fff !important;
+}
+
+.engineering .subHead {
+  color: #fff !important;
+}
+
+.engineering p {
+  color: #fff !important;
 }
 
 .engineering hgroup {
@@ -33651,7 +33732,7 @@ header {
 /* Grid container mein perspective add karna zaroori hai 3D feel ke liye */
 .engineering-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   gap: 30px;
   padding: 0 3rem;
   perspective: 1500px;
@@ -33661,12 +33742,11 @@ header {
   text-align: center;
   background-color: #FFFFFF;
   border-radius: 30px;
-  height: 220px;
+  height: 183px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: end;
-  padding: 0 0 1rem;
+  justify-content: center;
 
   /* 3D transitions */
   position: relative;
@@ -33697,13 +33777,13 @@ header {
 }
 
 .engineering-grid .engineering-item:hover figure {
-  transform: translateZ(50px) scale(1.1);
+  /* transform: translateZ(50px) scale(1.1); */
   /* Image card se bhi zyada bahar aayegi */
 }
 
 .engineering-grid .engineering-item h3 {
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   margin: 1rem 0;
   transition: transform 0.5s ease;
   transform: translateZ(10px);
@@ -33713,20 +33793,20 @@ header {
 /* Experienced SECTION START */
 
 .experienced {
-  background: url(/images/experienced-bg.webp) no-repeat center center/cover;
+  /* background: url(/images/experienced-bg.webp) no-repeat center center/cover; */
 }
 
 .experienced-head .subHead {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .experienced-head .mainHead {
-  color: #fff !important;
+  color: #000 !important;
   margin: 2rem 0;
 }
 
 .experienced-head p {
-  color: #fff;
+  color: #000;
   margin-bottom: 2rem;
 }
 
@@ -33741,7 +33821,7 @@ header {
 .skill-top {
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: #000;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -33755,10 +33835,10 @@ header {
 
 .progress-bar {
   height: 100%;
-  width: 0%;
+  width: 50%;
   /* IMPORTANT */
   border-radius: 20px;
-  background: var(--primary);
+  background-color: var(--primary) !important;
   transition: width 1.5s ease;
 }
 
@@ -33767,9 +33847,9 @@ header {
    INNOVATION SECTION START
 ========================= */
 .innovation {
-  background: url(/images/innovation-bg.webp) no-repeat center center/cover;
+  /* background: url(/images/innovation-bg.webp) no-repeat center center/cover; */
   position: relative;
-  padding: 15rem 0 6rem;
+  padding: 200px 0;
   overflow: visible;
   margin-top: 5rem;
 }
@@ -33780,7 +33860,7 @@ header {
 }
 
 .innovation hgroup .mainHead {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 /* =========================
@@ -33819,7 +33899,7 @@ header {
 }
 
 .marquee-wrapper.white {
-  background: #fff;
+  background: #2C2C2C;
   /* transform: rotate(5deg); */
   /* margin-top: -10rem; */
 }
@@ -34005,15 +34085,15 @@ header {
 }
 
 .innovation hgroup .subHead {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .innovation hgroup .mainHead {
-  margin: 1.5rem 0;
+  margin: 10px 0;
 }
 
 .innovation hgroup p {
-  color: #fff;
+  color: #000;
   font-size: 1.125rem;
   font-weight: 500;
   width: 68%;
@@ -34026,7 +34106,7 @@ header {
 @media (max-width: 1400px) {
   .process-card {
     width: 280px;
-    height: 340px;
+    height: 300px;
     flex-basis: 280px;
   }
 
@@ -34063,7 +34143,7 @@ header {
   }
 
   .card-label {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
 
   .card-label span {
@@ -34129,7 +34209,7 @@ header {
   }
 
   .innovation hgroup .mainHead {
-    margin: 1.2rem 0;
+    margin: 10px 0;
   }
 }
 
@@ -34191,9 +34271,9 @@ header {
   }
 
   .process-card {
-    width: 280px;
-    height: 340px;
-    flex-basis: 280px;
+    width: 100%;
+    height: 300px;
+    flex-basis: 100%;
   }
 
   .process-card.active {
@@ -34209,7 +34289,7 @@ header {
   }
 
   .card-label {
-    font-size: 0.8rem;
+    font-size: 16px;
   }
 
   .card-label span {
@@ -34284,10 +34364,31 @@ header {
 ========================= */
 
 .pull-trigger {
-  background-color: #F6F6F6;
+  background-image: url(/images/cta-bg.png);
   padding: 0;
   position: relative;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+.pull-trigger .themeBtn{
+  background-color: #fff;
+  color: #000;
+}
+
+.pull-trigger .subHead{
+  color: #fff !important;
+}
+
+.pull-trigger .mainHead{
+  color: #fff !important;
+}
+
+.pull-trigger p{
+  color: #fff !important;
 }
 
 /* Animated background pattern */
@@ -34513,6 +34614,7 @@ header {
   position: relative;
   overflow: hidden;
   padding: 100px 0;
+  background-color: #F5F5F5;
 }
 
 .blog hgroup {
@@ -34738,7 +34840,7 @@ footer {
   background-color: #000;
   padding: 3rem 0;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 footer h3 {
@@ -35506,6 +35608,7 @@ footer .copyRight p:hover {
 
 .project-name {
   padding: 0;
+  overflow-x: hidden;
 }
 
 .logo-design {
@@ -36624,7 +36727,7 @@ blockquote {
   }
 
   .our-app-head .mainHead {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .our-app-head p {
@@ -36632,11 +36735,11 @@ blockquote {
   }
 
   .brand-card h3 {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .brand-card {
-    padding: 2.1rem 1rem;
+    padding: 30px;
   }
 
   .brand-card figure {
@@ -36657,7 +36760,7 @@ blockquote {
   }
 
   .engineering-grid .engineering-item h3 {
-    font-size: 1.3rem;
+    font-size: 18px;
   }
 
   .marquee-item {
@@ -36665,7 +36768,7 @@ blockquote {
   }
 
   .innovation {
-    padding: 9rem 0 4rem;
+    padding: 200px 0 100px;
   }
 
   .our-client.about-client {
@@ -36798,6 +36901,10 @@ blockquote {
     left: 3%;
   }
 
+  .logo-design h2 {
+    font-size: 40px;
+  }
+
   .slideOne .themeBtn {
     margin-top: 30px;
   }
@@ -36822,7 +36929,7 @@ blockquote {
   }
 
   .mainHead {
-    font-size: 3.5rem;
+    font-size: 40px;
   }
 
   .blog .blog-img {
@@ -36842,7 +36949,7 @@ blockquote {
   }
 
   .innovation hgroup {
-    margin: 6rem 0 20px;
+    margin: 20px 0 20px;
   }
 
   .innovation hgroup .mainHead br {
@@ -36894,7 +37001,7 @@ blockquote {
   }
 
   .inner-banner article h1 {
-    font-size: 4rem;
+    font-size: 50px;
   }
 
   .recent-work {
@@ -36969,7 +37076,7 @@ blockquote {
   }
 
   .success-card h4 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .success-card h3 {
@@ -36985,7 +37092,11 @@ blockquote {
   }
 
   .testimonial-card p {
-    font-size: 1.2rem;
+    font-size: 16px;
+  }
+
+  .marquee-container .marquee .brand-icon h3 {
+    font-size: 20px;
   }
 
   .pull-trigger {
@@ -36996,16 +37107,16 @@ blockquote {
     height: 500px;
 } */
   .homeSlider {
-    top: 60%;
+    top: 45%;
   }
 
   .main-slider h1 {
-    font-size: 4rem;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 60px;
   }
 
   .main-slider p {
-    font-size: 1.1rem;
+    font-size: 18px;
     margin: 0;
   }
 
@@ -37071,8 +37182,8 @@ blockquote {
   }
 
   .blog-card h4 {
-    font-size: 1.5rem;
-    margin: 0 0 5px;
+    font-size: 20px;
+    margin: 10px 0;
   }
 
   .logo-design-sec {
@@ -37106,6 +37217,10 @@ blockquote {
     font-size: 13px;
   }
 
+  .logo-design h2 {
+    font-size: 30px;
+  }
+
   /* .main-slider {
     height: 420px;
 } */
@@ -37114,7 +37229,8 @@ blockquote {
   }
 
   .main-slider h1 {
-    font-size: 3.5rem;
+    font-size: 40px;
+    line-height: 50px;
   }
 
   .navbar-brand img {
@@ -37142,7 +37258,7 @@ blockquote {
   }
 
   .mainHead {
-    font-size: 3rem;
+    font-size: 30px;
   }
 
   .our-app-head p+p {
@@ -37177,7 +37293,7 @@ blockquote {
   }
 
   .success-card h4 {
-    font-size: 1.3rem;
+    font-size: 18px;
   }
 
   .success-card h3 {
@@ -37211,7 +37327,7 @@ blockquote {
   }
 
   .our-app-head .mainHead {
-    font-size: 3rem;
+    font-size: 30px;
   }
 
   .inner-banner figure img {
@@ -37231,7 +37347,7 @@ blockquote {
   }
 
   .inner-banner article h1 {
-    font-size: 4rem;
+    font-size: 40px;
   }
 
   .inner-banner article h4 {
@@ -37592,7 +37708,7 @@ blockquote {
 
 @media (max-width: 575.98px) {
   .main-slider h1 {
-    font-size: 2.2rem;
+    font-size: 30px;
     line-height: 1.1;
     margin: 8px 0;
   }
@@ -37603,15 +37719,23 @@ blockquote {
   }
 
   .image-layer video {
-    height: 280px;
+    height: 100%;
+  }
+
+  .our-app-head .mainHead {
+    font-size: 24px;
+  }
+
+  .our-app-head p {
+    width: 100%;
   }
 
   header {
-    top: 75px;
+    top: 0;
   }
 
   .main-slider {
-    height: 280px;
+    height: 450px;
   }
 
   .slideOne h3 {
@@ -37619,7 +37743,8 @@ blockquote {
   }
 
   .main-slider p {
-    font-size: 12px;
+    font-size: 16px;
+    width: 80%;
   }
 
   .header-top {
@@ -37627,7 +37752,7 @@ blockquote {
   }
 
   header {
-    padding: 0 1rem;
+    padding: 20px 1rem;
   }
 
   .branding {
@@ -37639,7 +37764,7 @@ blockquote {
   }
 
   .our-success {
-    padding: 3rem 0;
+    padding: 3rem 10px;
   }
 
   .our-success hgroup p {
@@ -37672,7 +37797,11 @@ blockquote {
   }
 
   .mainHead {
-    font-size: 2.2rem;
+    font-size: 24px;
+  }
+
+  .branding hgroup .mainHead {
+    margin: 10px 0;
   }
 
   .testimonial hgroup .mainHead br {
@@ -37835,7 +37964,8 @@ blockquote {
   }
 
   .inner-banner article h1 {
-    font-size: 2.9rem;
+    font-size: 30px;
+    margin: 8px 0;
   }
 
   .client-logos {
@@ -37916,7 +38046,8 @@ blockquote {
 
 
   .logo-design {
-    padding: 1rem;
+    padding: 20px;
+    text-align: center;
   }
 
   .load-more {
@@ -38007,7 +38138,7 @@ blockquote {
   }
 
   .portfolio-tabs .nav {
-    gap: 3rem;
+    gap: 30px !important;
     padding: 2rem;
     width: 280px;
   }
@@ -38051,7 +38182,7 @@ html,
 body {
   position: relative;
   background: #fff;
-  height: 100%;
+  height: auto;
   font-family: var(--font-raleway), sans-serif !important;
 }
 
@@ -38068,5 +38199,6 @@ a {
 
 .overFlowXHidden {
   overflow-x: hidden !important;
+  overflow-y: visible;
   width: 100%;
 }

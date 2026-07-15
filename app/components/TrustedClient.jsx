@@ -2,7 +2,7 @@ import React from 'react'
 
 function TrustedClient() {
     return (
-        <section className="our-success position-relative overflow-hidden">
+        <section className="our-success trusted position-relative overflow-hidden">
 
             <div className="container">
                 <div className="our-client about-client" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">

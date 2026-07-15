@@ -127,7 +127,7 @@ function page() {
                 </div>
             </section>
 
-            <Cta />
+            <Cta fromHome={true} />
 
         </>
     )

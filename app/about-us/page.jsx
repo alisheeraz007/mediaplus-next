@@ -59,8 +59,8 @@ function index() {
             </div>
           </div>
         </div>
-        <img src="images/app-img2.webp" className="img-fluid app-img2" alt="image" data-aos="fade-right"
-          data-aos-duration="1500" data-aos-delay="800" />
+        {/* <img src="images/app-img2.webp" className="img-fluid app-img2" alt="image" data-aos="fade-right"
+          data-aos-duration="1500" data-aos-delay="800" /> */}
       </section>
 
       <section className="leadership">

@@ -20,7 +20,7 @@ function ProvenExp() {
                 </hgroup>
             </div>
 
-            <div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+            <div className="container p-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                 <div className="marquee-container">
                     <div className="marquee">
                         <div className="brand-icon">
@@ -98,8 +98,6 @@ function ProvenExp() {
                 </div>
             </div>
 
-            <img src="images/achievement-img.webp" className="img-fluid achievement-img" alt="Achievement" data-aos="fade-left"
-                data-aos-duration="1500" data-aos-delay="800" />
         </section>
     )
 }
