@@ -32978,6 +32978,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 24px;
+  min-height: stretch;
 }
 
 .brand-card h3 {
@@ -33358,7 +33359,7 @@ header {
   margin-bottom: 0;
 }
 
-.our-success.trusted{
+.our-success.trusted {
   background: url(/images/our-success.webp) no-repeat center center/cover;
   padding: 5rem 0 0;
   margin-bottom: -82px;
@@ -33708,7 +33709,7 @@ header {
   background: url(/images/our-success.webp) no-repeat center center/cover;
 }
 
-.engineering h2{
+.engineering h2 {
   color: #fff !important;
 }
 
@@ -34374,20 +34375,20 @@ header {
   padding: 50px 0;
 }
 
-.pull-trigger .themeBtn{
+.pull-trigger .themeBtn {
   background-color: #fff;
   color: #000;
 }
 
-.pull-trigger .subHead{
+.pull-trigger .subHead {
   color: #fff !important;
 }
 
-.pull-trigger .mainHead{
+.pull-trigger .mainHead {
   color: #fff !important;
 }
 
-.pull-trigger p{
+.pull-trigger p {
   color: #fff !important;
 }
 
