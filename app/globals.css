@@ -33033,6 +33033,10 @@ header {
   column-gap: 5px;
 }
 
+.brand-card .themeBtn:hover {
+  background-color: transparent;
+}
+
 .brand-card .themeBtn.color1 {
   color: #E8006E;
 }
