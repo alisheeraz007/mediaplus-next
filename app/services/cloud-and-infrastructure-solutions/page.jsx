@@ -148,7 +148,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/cloud-and-infrastructure-solutions/microsoft-365" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">

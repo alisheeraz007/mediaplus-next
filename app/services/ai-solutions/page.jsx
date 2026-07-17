@@ -148,7 +148,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/ai-chatbots" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +229,7 @@ function page() {
                                     Delivers human-grade conversational speech.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/ai-voice-agents" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +304,7 @@ function page() {
                                     Reduces expensive administrative data errors.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/business-process-automation" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -386,7 +386,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/ai-customer-support" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -461,7 +461,7 @@ function page() {
                                     Accelerates overall pipeline movement.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/ai-sales-automation" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -542,7 +542,7 @@ function page() {
                                     Surfaces smart upsell opportunities.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/ai-crm" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -617,7 +617,7 @@ function page() {
                                     Guides strategic, data-driven decisions.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/ai-solutions/ai-analytics" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -148,7 +148,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/development-services/website-development" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +229,7 @@ function page() {
                                     Automated store inventory tracking.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/development-services/ecommerce-development" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +304,7 @@ function page() {
                                     Built to perform reliably.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/development-services/custom-software-development" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">

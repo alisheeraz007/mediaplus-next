@@ -1,3 +1,19 @@
+.breadcums {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    a {
+        color: #fff;
+        font-size: 13px;
+    }
+
+    span {
+        color: #FFFFFF4D;
+        font-size: 13px;
+    }
+}
+
 .subServicesPage {
     .inner-banner {
         h4 {
@@ -386,4 +402,284 @@
 .achievements {
     background-color: #fff;
     padding-top: 150px;
+}
+
+.mainServicePage {
+    .innerBannerSub {
+        height: 100vh;
+        padding-top: 100px;
+
+        .container {
+            margin: 0 auto;
+        }
+
+        .badgeDiv {
+            margin-top: 20px;
+
+            h4 {
+                background-color: #FFFFFF78;
+                font-size: 16px !important;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #fff !important;
+            font-weight: 600;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 16px;
+            width: 75%;
+        }
+
+        .cardDivOver {
+            margin-top: 30px;
+
+            .over {
+                background-color: #FFFFFF80;
+                border: 1px solid #FFFFFF12;
+                border-radius: 13.05px;
+                padding: 15px;
+
+                h3,
+                p {
+                    margin: 0;
+                    text-align: center;
+                    width: 100%;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    font-weight: 900;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .formDiv {
+            padding: 30px;
+            background-color: #FFFFFF80;
+            border-radius: 15px;
+
+            h5 {
+                margin: 0;
+                color: #FFFFFF !important;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                margin-top: 20px;
+
+                .inputDiv {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 5px;
+
+                    label {
+                        margin: 0;
+                        font-size: 10px;
+                        font-weight: 700;
+                        color: #fff;
+                    }
+
+                    input,
+                    textarea {
+                        border: none;
+                        background-color: #0F13245E;
+                        border-radius: 8px;
+                        padding: 10px 12px;
+                        font-size: 13px;
+                        color: #FFFFFF !important;
+
+                        &::placeholder {
+                            color: #ffffff87 !important;
+                        }
+                    }
+                }
+
+                .themeBtn {
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+
+    .section1 {
+        .countsRow {
+            margin-top: 30px;
+
+            .col-md-4 {
+                height: stretch;
+            }
+
+            .countCard {
+                background: #0D11180D;
+                padding: 20px;
+                height: 100%;
+
+                h4 {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    color: #000 !important;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+
+                p {
+                    padding-left: 33px;
+                    color: #4B4D4D;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .sectionProcess {
+        background-color: #F3F3F3;
+
+        .processCardMain {
+            .processCard {
+                .countDiv {
+                    h2 {
+                        background-color: transparent;
+                        color: #CE00EC !important;
+                        margin: 0;
+                        font-size: 67px;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px !important;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .section3 {
+        .row {
+            align-items: center;
+        }
+
+        .col-md-5 {
+
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+
+                span {
+                    width: 44.7px;
+                    height: 3.72px;
+                    background: linear-gradient(130deg, #E8006E 3.67%, #B5009D 36.1%, #7B00D4 68.53%, #5500F0 96.33%);
+                    border-radius: 50px;
+                    margin: 20px 0;
+                    display: block;
+                }
+            }
+
+            h4 {
+                color: #C500E1 !important;
+                font-size: 16px;
+            }
+
+            p {
+                color: #6A6A6A;
+                font-size: 16px;
+            }
+        }
+
+        .techStackMain {
+            row-gap: 24px;
+
+            .techStack {
+                background-color: #F3F4F6;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 13px;
+                font-weight: 600;
+                color: #000;
+                border-radius: 20px;
+                transition: 0.3s;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #CE00EC;
+                }
+            }
+        }
+    }
+
+    .section4 {
+        background-color: #000;
+
+        .col-md-5 {
+            h2 {
+                color: #fff !important;
+                margin-bottom: 30px;
+            }
+        }
+
+        .accordion {
+            .accordion-item {
+                border: none;
+                border-bottom: 1px solid #FFFFFF12;
+
+                .accordion-button {
+                    padding: 20px 0;
+                    font-size: 16px;
+                    color: #fff;
+                    outline: none;
+                    box-shadow: none;
+                }
+
+                .accordion-body {
+                    color: #ffffff9f;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .section5 {
+        &.branding {
+            .row {
+                margin: 0 !important;
+                .col-lg-3{
+                    height: stretch;
+                }
+            }
+
+            background: none;
+
+            .brand-card {
+                margin: 0;
+                padding: 24px;
+                p {
+                    font-size: 13px;
+                    color: #7a5f9a;
+                }
+            }
+        }
+    }
 }
