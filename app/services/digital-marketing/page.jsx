@@ -19,9 +19,9 @@ function page() {
                                     Back to Services
                                 </h4>
                             </Link>
-                            <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">Digital Marketing</h1>
+                            <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">Digital Marketing & Creative Design</h1>
                             <p data-aos="fade-up" data-aos-duration="1400">
-                                Transform your business operations with secure and scalable software solutions engineered to drive your long-term corporate growth.
+                                Scale your online presence using synchronized digital marketing and creative design strategies built to engage target audiences, design seamless interfaces, and drive leads.
                             </p>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1600"
                                 data-aos-delay="600">Let’s Get Started</Link>
@@ -39,37 +39,37 @@ function page() {
                         <div className='col-md-6'>
                             <h4 data-aos="fade-up" data-aos-duration="300">About This Service</h4>
                             <h2 data-aos="fade-up" data-aos-duration="600">
-                                High-Performance AI and Automation Infrastructure Built for Efficiency
+                                Integrated Digital Strategies Crafted for Brand Authority
                                 <span data-aos="fade-up" data-aos-duration="800" />
                             </h2>
                             <p data-aos="fade-up" data-aos-duration="1000">
-                                Transform your business operations with secure, scalable AI ecosystems and automated workflows engineered to optimize efficiency and drive your long-term growth.
+                                Accelerate your market presence, captivate target audiences, and design seamless digital touchpoints with synchronized growth campaigns and user-centric brand experiences.
                             </p>
                         </div>
                         <div className='col-md-6'>
                             <div className='row countsRow'>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
-                                        <h3>340+</h3>
-                                        <p>Projects Delivered</p>
+                                        <h3>180+</h3>
+                                        <p>Campaigns Launched</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
-                                        <h3>98%</h3>
-                                        <p>Client Satisfaction</p>
+                                        <h3>94%</h3>
+                                        <p>Client Retention</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
-                                        <h3>21d</h3>
+                                        <h3>14 Days</h3>
                                         <p>Avg. Turnaround</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
-                                        <h3>2 incl.</h3>
-                                        <p>Revision Rounds</p>
+                                        <h3>3 Rounds</h3>
+                                        <p>Included Revisions</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +81,13 @@ function page() {
             <section className='sectionService'>
                 <div className='container'>
                     <h4 data-aos="fade-up" data-aos-duration="700">What's Included</h4>
-                    <h2 data-aos="fade-up" data-aos-duration="700">Everything you need, nothing you don't</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="700">High-converting creative campaigns engineered to scale visibility and acquire customers</h2>
                     <div className='row' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>01</div>
-                            <h3>AI Chatbots</h3>
+                            <h3>SEO</h3>
                             <p>
-                                 Leverage advanced NLP engines and LLM frameworks to deploy responsive, conversational AI solutions. You receive interactive AI chatbot development that handles inquiries instantly, boosting user satisfaction and engagement.
+                                Improve your website visibility and secure sustainable traffic pipelines by executing technical, on-page, and off-page organic search strategies. You gain targeted search engine optimization services engineered to grow search rankings.
                             </p>
                             <ul>
                                 <li>
@@ -102,7 +102,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Responsive and tailored web design.
+                                    Elevates target organic rankings.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Built to attract and engage users.
+                                    Drives high-intent inbound traffic.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Designed to grow with your business.
+                                    Technical website audit optimization.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +144,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Elevates your brand's digital footprint.
+                                    Sustainable long-term online growth.
                                 </li>
                             </ul>
 
@@ -157,19 +157,19 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage1.png' />
+                            <img src='/images/digital-marketing/image1.png' />
                         </div>
                     </div>
 
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage2.png' />
+                            <img src='/images/digital-marketing/image2.png' />
                         </div>
                         <div className='col-md-6 pl-5'>
                             <div className='countDiv'>02</div>
-                            <h3>E-commerce development</h3>
+                            <h3>Google Ads</h3>
                             <p>
-                                Drive measurable revenue with robust e-commerce development solutions and high-performance online storefront infrastructure designed for seamless transactions and secure scaling
+                                Capture high-intent customers at the exact moment they search by deploying targeted pay-per-click marketing campaigns. You receive data-backed google ads management services built to lower conversion costs and maximize return.
                             </p>
                             <ul>
                                 <li>
@@ -184,7 +184,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Focused on boosting online sales.
+                                    Lowers customer acquisition costs.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +198,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    High-performance storefront systems.
+                                    Targets ready-to-buy audiences.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +212,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Smooth and secure checkout experience.
+                                    Immediate search engine visibility.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Safe and protected business growth.
+                                    Data-driven ad spend optimization.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -242,9 +242,9 @@ function page() {
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>03</div>
-                            <h3>Custom Software Development</h3>
+                            <h3>Meta Ads</h3>
                             <p>
-                                Streamline your operations with a custom software development company engineering custom business applications, including centralized performance dashboards and scalable automated internal workflow systems.
+                                Reach specific audience demographics across Facebook and Instagram using high-converting, targeted social media advertising campaigns. You deploy focused meta advertising services engineered to scale leads and boost online sales.
                             </p>
                             <ul>
                                 <li>
@@ -259,7 +259,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Optimizes your daily business tasks.
+                                    Captivates targeted social audiences.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -273,7 +273,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Engineered specifically for your needs.
+                                    Enhances online brand exposure.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Centralized views for data tracking.
+                                    High-converting social campaign setups.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +301,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Scalable systems to automate internal work.
+                                    Scales multi-channel sales leads.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -313,7 +313,320 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage3.png' />
+                            <img src='/images/digital-marketing/image3.png' />
+                        </div>
+                    </div>
+
+                    <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
+                        <div className='col-md-6 imgDiv'>
+                            <img src='/images/digital-marketing/image4.png' />
+                        </div>
+                        <div className='col-md-6 pl-5'>
+                            <div className='countDiv'>04</div>
+                            <h3>Social Media Marketing</h3>
+                            <p>
+                                Build an active online community and strengthen customer relationships through consistent, high-impact organic social media management. You gain tailored social media marketing services designed to increase daily audience engagement.
+                            </p>
+                            <ul>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Builds active online communities.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Consistent visual content delivery.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Boosts daily customer interaction.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Strengthens organic brand loyalty.
+                                </li>
+                            </ul>
+
+                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                                data-aos-delay="600">
+                                Book a call
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.679688 7.19826L3.93897 3.93897L0.679688 0.679688" stroke="white" strokeWidth="1.35804" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
+                        <div className='col-md-6 pr-5'>
+                            <div className='countDiv'>05</div>
+                            <h3>Branding & Creative Design</h3>
+                            <p>
+                                Establish a cohesive visual identity, including custom logos, color palettes, and marketing assets using tailored creative design solutions. You establish recognized corporate branding services built to differentiate your business.
+                            </p>
+                            <ul>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Custom corporate logo designs.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Cohesive digital brand identities.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Striking custom marketing assets.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Differentiates your market presence.
+                                </li>
+                            </ul>
+                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                                data-aos-delay="600">
+                                Book a call
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.679688 7.19826L3.93897 3.93897L0.679688 0.679688" stroke="white" strokeWidth="1.35804" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </Link>
+                        </div>
+                        <div className='col-md-6 imgDiv'>
+                            <img src='/images/digital-marketing/image5.png' />
+                        </div>
+                    </div>
+
+                    <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
+                        <div className='col-md-6 imgDiv'>
+                            <img src='/images/digital-marketing/image6.png' />
+                        </div>
+                        <div className='col-md-6 pl-5'>
+                            <div className='countDiv'>06</div>
+                            <h3>UI/UX Design Services</h3>
+                            <p>
+                                Construct intuitive user flows and visually striking wireframes for websites and mobile applications utilizing modern digital product interface design. You acquire optimized UI UX design services built for effortless navigation.
+                            </p>
+                            <ul>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Seamless digital user journeys.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Intuitive custom interface layout.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Minimizes customer drop-off rates.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Engaging mobile wireframe design.
+                                </li>
+                            </ul>
+                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                                data-aos-delay="600">
+                                Book a call
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.679688 7.19826L3.93897 3.93897L0.679688 0.679688" stroke="white" strokeWidth="1.35804" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
+                        <div className='col-md-6 pr-5'>
+                            <div className='countDiv'>07</div>
+                            <h3>Content Marketing</h3>
+                            <p>
+                                Drive organic interest and establish industry authority by producing structured, educational articles and landing pages using content creation and strategy. You obtain optimized B2B content marketing services that qualify leads.
+                            </p>
+                            <ul>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Educates your target audience.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Increases organic search authority.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    High-converting landing page copy.
+                                </li>
+                                <li>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clipPath="url(#clip0_2816_4815)">
+                                            <path d="M7.45035 13.6585C10.879 13.6585 13.6585 10.879 13.6585 7.45035C13.6585 4.02168 10.879 1.24219 7.45035 1.24219C4.02168 1.24219 1.24219 4.02168 1.24219 7.45035C1.24219 10.879 4.02168 13.6585 7.45035 13.6585Z" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.58789 7.44476L6.82952 8.68639L9.31279 6.20312" stroke="#C500E1" strokeWidth="1.55204" strokeLinecap="round" strokeLinejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2816_4815">
+                                                <rect width="14.8996" height="14.8996" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Establishes visible industry expertise.
+                                </li>
+                            </ul>
+                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                                data-aos-delay="600">
+                                Book a call
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.679688 7.19826L3.93897 3.93897L0.679688 0.679688" stroke="white" strokeWidth="1.35804" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </Link>
+                        </div>
+                        <div className='col-md-6 imgDiv'>
+                            <img src='/images/digital-marketing/image7.png' />
                         </div>
                     </div>
                 </div>
@@ -322,7 +635,7 @@ function page() {
             <div className='sectionProcess'>
                 <div className='container'>
                     <h4>Our Process</h4>
-                    <h2>Everything you need, nothing you don't</h2>
+                    <h2>A strategic creative framework delivering data-driven digital brand growth</h2>
 
                     <div className='processCardMain'>
                         <div className='processCard'>
@@ -332,7 +645,7 @@ function page() {
                             </div>
                             <h3>Discovery</h3>
                             <p>
-                                Brand workshop to extract positioning, values, and audience truths.
+                                Audience demographic research, competitor analysis, and organic search keyword mapping.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -340,9 +653,9 @@ function page() {
                                 <h3>02</h3>
                                 <span />
                             </div>
-                            <h3>Concepts</h3>
+                            <h3>Creation</h3>
                             <p>
-                                3 distinct logo directions — each defensible with strategic rationale.
+                                Developing custom brand visuals, landing page copy, and target ad assets.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -350,9 +663,9 @@ function page() {
                                 <h3>03</h3>
                                 <span />
                             </div>
-                            <h3>Refinement</h3>
+                            <h3>Optimisation</h3>
                             <p>
-                                Two rounds of revisions on the chosen direction.
+                                Rigorous visual brand reviews, campaign layout testing, and technical site audits.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -360,9 +673,9 @@ function page() {
                                 <h3>04</h3>
                                 <span />
                             </div>
-                            <h3>Delivery</h3>
+                            <h3>Launch</h3>
                             <p>
-                                Complete file package + brand guidelines PDF.
+                                Publishing high-impact campaigns, live budget tracking, and real-time performance reporting.
                             </p>
                         </div>
                     </div>

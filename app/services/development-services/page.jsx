@@ -21,7 +21,7 @@ function page() {
                             </Link>
                             <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">Development Services</h1>
                             <p data-aos="fade-up" data-aos-duration="1400">
-                                Transform your business operations with secure and scalable software solutions engineered to drive your long-term corporate growth.
+                                Build secure, adaptable and scalable web systems. Our development services deliver responsive software and custom databases engineered for daily business operations
                             </p>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1600"
                                 data-aos-delay="600">Let’s Get Started</Link>
@@ -50,26 +50,26 @@ function page() {
                             <div className='row countsRow'>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
-                                        <h3>340+</h3>
-                                        <p>Projects Delivered</p>
+                                        <h3>120+</h3>
+                                        <p>Completed Projects</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
                                         <h3>98%</h3>
-                                        <p>Client Satisfaction</p>
+                                        <p>Satisfaction Rate</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
-                                        <h3>21d</h3>
-                                        <p>Avg. Turnaround</p>
+                                        <h3>30 Days</h3>
+                                        <p>Avg. Delivery Time</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
-                                        <h3>2 incl.</h3>
-                                        <p>Revision Rounds</p>
+                                        <h3>2 Rounds</h3>
+                                        <p>Included Revisions</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ function page() {
             <section className='sectionService'>
                 <div className='container'>
                     <h4 data-aos="fade-up" data-aos-duration="700">What's Included</h4>
-                    <h2 data-aos="fade-up" data-aos-duration="700">Everything you need, nothing you don't</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="700">End-to-end technical capabilities tailored to your operational needs</h2>
                     <div className='row' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>01</div>
@@ -102,7 +102,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Responsive and tailored web design.
+                                    Highly secure web architectures.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Built to attract and engage users.
+                                    Built for high user traffic.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Designed to grow with your business.
+                                    Responsive layouts for all browsers.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +144,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Elevates your brand's digital footprint.
+                                    Seamless external software integrations.
                                 </li>
                             </ul>
 
@@ -157,19 +157,19 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage1.png' />
+                            <img src='/images/development-services/webImage1.png' />
                         </div>
                     </div>
 
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage2.png' />
+                            <img src='/images/development-services/webImage2.png' />
                         </div>
                         <div className='col-md-6 pl-5'>
                             <div className='countDiv'>02</div>
-                            <h3>E-commerce development</h3>
+                            <h3>E-commerce Development</h3>
                             <p>
-                                Drive measurable revenue with robust e-commerce development solutions and high-performance online storefront infrastructure designed for seamless transactions and secure scaling
+                                Drive measurable revenue with robust e-commerce development solutions and high-performance online storefront infrastructure designed for seamless transactions and secure scaling.
                             </p>
                             <ul>
                                 <li>
@@ -184,7 +184,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Focused on boosting online sales.
+                                    Secure online shopping platforms.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +198,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    High-performance storefront systems.
+                                    Streamlined buyer checkout experiences.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +212,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Smooth and secure checkout experience.
+                                    Secure payment gateway connections.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Safe and protected business growth.
+                                    Automated store inventory tracking.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -259,7 +259,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Optimizes your daily business tasks.
+                                    Visually engaging user interfaces.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -273,7 +273,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Engineered specifically for your needs.
+                                    Secure database framework setups.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Centralized views for data tracking.
+                                    Reliable custom API connections.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +301,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Scalable systems to automate internal work.
+                                    Built to perform reliably.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -313,7 +313,7 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage3.png' />
+                            <img src='/images/development-services/webImage3.png' />
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ function page() {
             <div className='sectionProcess'>
                 <div className='container'>
                     <h4>Our Process</h4>
-                    <h2>Everything you need, nothing you don't</h2>
+                    <h2>A structured, transparent roadmap from initial architecture to final deployment</h2>
 
                     <div className='processCardMain'>
                         <div className='processCard'>
@@ -332,7 +332,7 @@ function page() {
                             </div>
                             <h3>Discovery</h3>
                             <p>
-                                Brand workshop to extract positioning, values, and audience truths.
+                                Technical workshop to map system architecture, user flows, and project requirements.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -340,9 +340,9 @@ function page() {
                                 <h3>02</h3>
                                 <span />
                             </div>
-                            <h3>Concepts</h3>
+                            <h3>Engineering</h3>
                             <p>
-                                3 distinct logo directions — each defensible with strategic rationale.
+                                Custom backend development, database structuring, and responsive frontend interface engineering.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -352,7 +352,7 @@ function page() {
                             </div>
                             <h3>Refinement</h3>
                             <p>
-                                Two rounds of revisions on the chosen direction.
+                                Stringent quality assurance testing across multiple devices to ensure a bug-free system.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -362,7 +362,7 @@ function page() {
                             </div>
                             <h3>Delivery</h3>
                             <p>
-                                Complete file package + brand guidelines PDF.
+                                Smooth production environment deployment, comprehensive documentation handover, and system training.
                             </p>
                         </div>
                     </div>

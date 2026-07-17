@@ -21,7 +21,7 @@ function page() {
                             </Link>
                             <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">Managed IT Services</h1>
                             <p data-aos="fade-up" data-aos-duration="1400">
-                                Transform your business operations with secure and scalable software solutions engineered to drive your long-term corporate growth.
+                                Eliminate technical disruptions with dedicated managed IT services, delivering proactive system monitoring, network troubleshooting, and predictable technology budgets for your business.
                             </p>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1600"
                                 data-aos-delay="600">Let’s Get Started</Link>
@@ -39,37 +39,37 @@ function page() {
                         <div className='col-md-6'>
                             <h4 data-aos="fade-up" data-aos-duration="300">About This Service</h4>
                             <h2 data-aos="fade-up" data-aos-duration="600">
-                                High-Performance AI and Automation Infrastructure Built for Efficiency
+                                Dedicated Technology Management Built for Operational Focus
                                 <span data-aos="fade-up" data-aos-duration="800" />
                             </h2>
                             <p data-aos="fade-up" data-aos-duration="1000">
-                                Transform your business operations with secure, scalable AI ecosystems and automated workflows engineered to optimize efficiency and drive your long-term growth.
+                                Delegate your day-to-day technology management to experienced professionals, ensuring continuous system availability, rapid issue resolution, and predictable IT budgets.
                             </p>
                         </div>
                         <div className='col-md-6'>
                             <div className='row countsRow'>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
-                                        <h3>340+</h3>
-                                        <p>Projects Delivered</p>
+                                        <h3>1,500+</h3>
+                                        <p>Endpoints Managed</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
-                                        <h3>98%</h3>
-                                        <p>Client Satisfaction</p>
+                                        <h3>99%</h3>
+                                        <p>SLA Resolution</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
-                                        <h3>21d</h3>
-                                        <p>Avg. Turnaround</p>
+                                        <h3>{`< 15 Mins`}</h3>
+                                        <p>Avg. Ticket Response</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
-                                        <h3>2 incl.</h3>
-                                        <p>Revision Rounds</p>
+                                        <h3>24/7</h3>
+                                        <p>Active Support</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +81,13 @@ function page() {
             <section className='sectionService'>
                 <div className='container'>
                     <h4 data-aos="fade-up" data-aos-duration="700">What's Included</h4>
-                    <h2 data-aos="fade-up" data-aos-duration="700">Everything you need, nothing you don't</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="700">Dependable, round-the-clock technical troubleshooting and ongoing maintenance programs</h2>
                     <div className='row' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>01</div>
-                            <h3>AI Chatbots</h3>
+                            <h3>Managed IT Support</h3>
                             <p>
-                                 Leverage advanced NLP engines and LLM frameworks to deploy responsive, conversational AI solutions. You receive interactive AI chatbot development that handles inquiries instantly, boosting user satisfaction and engagement.
+                                Secure proactive network monitoring, remote troubleshooting, and helpdesk assistance through tailored outsourced IT support. You receive dependable managed IT support services designed to minimize technical downtime and keep your team productive.
                             </p>
                             <ul>
                                 <li>
@@ -102,7 +102,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Responsive and tailored web design.
+                                    Proactive system uptime monitoring.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Built to attract and engage users.
+                                    Fast remote technical troubleshooting.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Designed to grow with your business.
+                                    Dedicated business helpdesk assistance.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +144,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Elevates your brand's digital footprint.
+                                    Minimizes critical operational downtime.
                                 </li>
                             </ul>
 
@@ -157,19 +157,19 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage1.png' />
+                            <img src='/images/managed-it/image1.png' />
                         </div>
                     </div>
 
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage2.png' />
+                            <img src='/images/managed-it/image2.png' />
                         </div>
                         <div className='col-md-6 pl-5'>
                             <div className='countDiv'>02</div>
-                            <h3>E-commerce development</h3>
+                            <h3>Annual Maintenance Contracts (AMC)</h3>
                             <p>
-                                Drive measurable revenue with robust e-commerce development solutions and high-performance online storefront infrastructure designed for seamless transactions and secure scaling
+                                Protect your physical hardware and core software systems from unexpected failures with scheduled IT AMC services. You secure predictable IT annual maintenance contracts engineered to extend device lifespans and ensure hardware reliability.
                             </p>
                             <ul>
                                 <li>
@@ -184,7 +184,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Focused on boosting online sales.
+                                    Planned hardware diagnostic testing.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +198,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    High-performance storefront systems.
+                                    Extends corporate device lifespans.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +212,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Smooth and secure checkout experience.
+                                    Scheduled system performance tuning.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Safe and protected business growth.
+                                    Prevents sudden hardware failures.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -242,9 +242,9 @@ function page() {
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>03</div>
-                            <h3>Custom Software Development</h3>
+                            <h3>Document Management Systems</h3>
                             <p>
-                                Streamline your operations with a custom software development company engineering custom business applications, including centralized performance dashboards and scalable automated internal workflow systems.
+                                Centralize, index, and secure your business files in a searchable repository using secure document management software. You deploy custom document management systems designed to eliminate paper waste, simplify retrieval, and enforce access controls.
                             </p>
                             <ul>
                                 <li>
@@ -259,7 +259,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Optimizes your daily business tasks.
+                                    Secure central file repositories.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -273,7 +273,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Engineered specifically for your needs.
+                                    Speeds up digital document retrieval.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Centralized views for data tracking.
+                                    Enforces strict user access controls.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +301,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Scalable systems to automate internal work.
+                                    Eliminates physical paper storage.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -313,7 +313,7 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage3.png' />
+                            <img src='/images/managed-it/image3.png' />
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ function page() {
             <div className='sectionProcess'>
                 <div className='container'>
                     <h4>Our Process</h4>
-                    <h2>Everything you need, nothing you don't</h2>
+                    <h2>Proactive system maintenance and immediate technical support with zero friction</h2>
 
                     <div className='processCardMain'>
                         <div className='processCard'>
@@ -332,7 +332,7 @@ function page() {
                             </div>
                             <h3>Discovery</h3>
                             <p>
-                                Brand workshop to extract positioning, values, and audience truths.
+                                Comprehensive diagnostic evaluation of hardware performance and active network configurations.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -340,9 +340,9 @@ function page() {
                                 <h3>02</h3>
                                 <span />
                             </div>
-                            <h3>Concepts</h3>
+                            <h3>Setup</h3>
                             <p>
-                                3 distinct logo directions — each defensible with strategic rationale.
+                                Deploying dedicated monitoring agents, central helpdesk tools, and backup schedules.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -350,9 +350,9 @@ function page() {
                                 <h3>03</h3>
                                 <span />
                             </div>
-                            <h3>Refinement</h3>
+                            <h3>Optimisation</h3>
                             <p>
-                                Two rounds of revisions on the chosen direction.
+                                Scheduled hardware fine-tuning, registry cleanup, and software update applications.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -360,9 +360,9 @@ function page() {
                                 <h3>04</h3>
                                 <span />
                             </div>
-                            <h3>Delivery</h3>
+                            <h3>Support</h3>
                             <p>
-                                Complete file package + brand guidelines PDF.
+                                Immediate technical ticket resolution, routine physical checkups, and backup verifications.
                             </p>
                         </div>
                     </div>

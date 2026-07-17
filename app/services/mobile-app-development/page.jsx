@@ -21,7 +21,7 @@ function page() {
                             </Link>
                             <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">Mobile App development</h1>
                             <p data-aos="fade-up" data-aos-duration="1400">
-                                Transform your business operations with secure and scalable software solutions engineered to drive your long-term corporate growth.
+                                Build native and cross-platform applications. Our specialized mobile app development services deliver responsive, user-friendly digital products engineered to grow your business.
                             </p>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1600"
                                 data-aos-delay="600">Let’s Get Started</Link>
@@ -39,37 +39,37 @@ function page() {
                         <div className='col-md-6'>
                             <h4 data-aos="fade-up" data-aos-duration="300">About This Service</h4>
                             <h2 data-aos="fade-up" data-aos-duration="600">
-                                High-Performance AI and Automation Infrastructure Built for Efficiency
+                                Custom Mobile App Solutions Built for Growth
                                 <span data-aos="fade-up" data-aos-duration="800" />
                             </h2>
                             <p data-aos="fade-up" data-aos-duration="1000">
-                                Transform your business operations with secure, scalable AI ecosystems and automated workflows engineered to optimize efficiency and drive your long-term growth.
+                                Transform your business reach with secure, scalable mobile applications engineered to deliver seamless user experiences and drive continuous engagement for your brand.
                             </p>
                         </div>
                         <div className='col-md-6'>
                             <div className='row countsRow'>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
-                                        <h3>340+</h3>
-                                        <p>Projects Delivered</p>
+                                        <h3>45+</h3>
+                                        <p>Completed Projects</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
-                                        <h3>98%</h3>
-                                        <p>Client Satisfaction</p>
+                                        <h3>96%</h3>
+                                        <p>Satisfaction Rate</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
-                                        <h3>21d</h3>
-                                        <p>Avg. Turnaround</p>
+                                        <h3>45 Days</h3>
+                                        <p>Avg. Delivery Time</p>
                                     </div>
                                 </div>
                                 <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
-                                        <h3>2 incl.</h3>
-                                        <p>Revision Rounds</p>
+                                        <h3>2 Rounds</h3>
+                                        <p>Included Revisions</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +81,13 @@ function page() {
             <section className='sectionService'>
                 <div className='container'>
                     <h4 data-aos="fade-up" data-aos-duration="700">What's Included</h4>
-                    <h2 data-aos="fade-up" data-aos-duration="700">Everything you need, nothing you don't</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="700">End-to-end mobile engineering capabilities tailored to your exact business goals</h2>
                     <div className='row' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>01</div>
-                            <h3>AI Chatbots</h3>
+                            <h3>Cross-Platform Mobile App Development</h3>
                             <p>
-                                 Leverage advanced NLP engines and LLM frameworks to deploy responsive, conversational AI solutions. You receive interactive AI chatbot development that handles inquiries instantly, boosting user satisfaction and engagement.
+                                 Leverage unified Flutter and React Native frameworks to deploy high-performance multi-platform app solutions. You receive seamless cross-platform mobile app development that slashes time-to-market and captures wider audiences.
                             </p>
                             <ul>
                                 <li>
@@ -102,7 +102,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Responsive and tailored web design.
+                                    Shared codebase for efficient deployment.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Built to attract and engage users.
+                                    Native-like performance on all devices.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Designed to grow with your business.
+                                    Cost-effective development and maintenance.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +144,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Elevates your brand's digital footprint.
+                                    Faster time-to-market for your product.
                                 </li>
                             </ul>
 
@@ -157,19 +157,19 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage1.png' />
+                            <img src='/images/mobile-app/image1.png' />
                         </div>
                     </div>
 
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage2.png' />
+                            <img src='/images/mobile-app/image2.png' />
                         </div>
                         <div className='col-md-6 pl-5'>
                             <div className='countDiv'>02</div>
-                            <h3>E-commerce development</h3>
+                            <h3>Android App Development</h3>
                             <p>
-                                Drive measurable revenue with robust e-commerce development solutions and high-performance online storefront infrastructure designed for seamless transactions and secure scaling
+                                Utilize powerful Android SDKs and modern development frameworks to build robust native android applications. You secure high-performance Android app development services engineered to maximize device capabilities and drive user acquisition.
                             </p>
                             <ul>
                                 <li>
@@ -184,7 +184,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Focused on boosting online sales.
+                                    Tailored for diverse Android devices.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +198,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    High-performance storefront systems.
+                                    Built for maximum operational speed.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +212,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Smooth and secure checkout experience.
+                                    Seamless integration with Google services.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Safe and protected business growth.
+                                    Optimized for the Google Play Store.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -242,9 +242,9 @@ function page() {
                     <div className='row mt-5' data-aos="fade-up" data-aos-duration="700">
                         <div className='col-md-6 pr-5'>
                             <div className='countDiv'>03</div>
-                            <h3>Custom Software Development</h3>
+                            <h3>iOS App Development</h3>
                             <p>
-                                Streamline your operations with a custom software development company engineering custom business applications, including centralized performance dashboards and scalable automated internal workflow systems.
+                                Leverage dedicated Apple developer frameworks to deploy highly responsive custom iOS applications, delivering premium iOS app development services engineered for seamless App Store submission and friction-free customer retention.
                             </p>
                             <ul>
                                 <li>
@@ -259,7 +259,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Optimizes your daily business tasks.
+                                    Premium, smooth-functioning user interfaces.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -273,7 +273,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Engineered specifically for your needs.
+                                    Built to meet strict Apple guidelines.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Centralized views for data tracking.
+                                    Secure integration with the Apple ecosystem.
                                 </li>
                                 <li>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +301,7 @@ function page() {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    Scalable systems to automate internal work.
+                                    Optimized for premium user experiences.
                                 </li>
                             </ul>
                             <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
@@ -313,7 +313,7 @@ function page() {
                             </Link>
                         </div>
                         <div className='col-md-6 imgDiv'>
-                            <img src='/images/webImage3.png' />
+                            <img src='/images/mobile-app/image3.png' />
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ function page() {
             <div className='sectionProcess'>
                 <div className='container'>
                     <h4>Our Process</h4>
-                    <h2>Everything you need, nothing you don't</h2>
+                    <h2>A structured mobile engineering cycle from initial wireframing to App Store launch</h2>
 
                     <div className='processCardMain'>
                         <div className='processCard'>
@@ -332,7 +332,7 @@ function page() {
                             </div>
                             <h3>Discovery</h3>
                             <p>
-                                Brand workshop to extract positioning, values, and audience truths.
+                                User journey mapping, interactive wireframing, and defining the core mobile feature set.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -340,9 +340,9 @@ function page() {
                                 <h3>02</h3>
                                 <span />
                             </div>
-                            <h3>Concepts</h3>
+                            <h3>Engineering</h3>
                             <p>
-                                3 distinct logo directions — each defensible with strategic rationale.
+                                Writing clean, high-performance code, setting up secure backend databases, and integrating essential APIs.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -352,7 +352,7 @@ function page() {
                             </div>
                             <h3>Refinement</h3>
                             <p>
-                                Two rounds of revisions on the chosen direction.
+                                Rigorous manual and automated testing across multiple real devices, screen sizes, and operating systems.
                             </p>
                         </div>
                         <div className='processCard'>
@@ -360,9 +360,9 @@ function page() {
                                 <h3>04</h3>
                                 <span />
                             </div>
-                            <h3>Delivery</h3>
+                            <h3>Launch</h3>
                             <p>
-                                Complete file package + brand guidelines PDF.
+                                Navigating App Store and Google Play submissions, optimization, and deploying post-launch support.
                             </p>
                         </div>
                     </div>
