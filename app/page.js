@@ -77,7 +77,7 @@ export default function Home() {
             </div>
             <div className="col-md-5">
               <figure data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
-                <img src="images/app-img.webp" className="img-fluid" alt="" />
+                <img src="images/app-img.webp" className="img-fluid" alt="icon" />
               </figure>
             </div>
           </div>
@@ -345,7 +345,7 @@ export default function Home() {
             <div className="col-md-7">
               <div className="scrollDiv">
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img1.png" />
+                  <img src="/images/award-img1.png" alt="icon" />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Digital desk</h2>
@@ -360,7 +360,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img2.png" />
+                  <img src="/images/award-img2.png" alt="icon"  />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Smart connect</h2>
@@ -375,7 +375,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img3.png" />
+                  <img src="/images/award-img3.png" alt="icon"  />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Smart connect</h2>
@@ -390,7 +390,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img4.png" />
+                  <img src="/images/award-img4.png" alt="icon"  />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Smart connect</h2>
@@ -704,7 +704,7 @@ export default function Home() {
         <div className="container">
           <hgroup>
             <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
-              <figure><img src="images/subHead.webp" className="img-fluid" alt="" /></figure>
+              <figure><img src="images/subHead.webp" className="img-fluid" alt="img" /></figure>
               <span>How We Work</span>
             </h3>
             <h2 className="mainHead" data-aos="fade-up" data-aos-duration="1000">From <br />

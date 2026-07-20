@@ -1,6 +1,30 @@
-import React from 'react'
+'use client'
+import { useEffect, useRef, useState } from "react";
 
 function Header() {
+
+    const [isOpen, setIsOpen] = useState(false);
+    const navRef = useRef(null);
+
+    const collapseNav = () => {
+        setIsOpen((prev) => !prev);
+    };
+
+    // Outside click
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (navRef.current && !navRef.current.contains(e.target)) {
+                setIsOpen(false);
+            }
+        };
+
+        document.addEventListener("click", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        };
+    }, []);
+
     return (
         <>
             {/* <div className="header-top">
@@ -40,17 +64,16 @@ function Header() {
             </div> */}
 
             <header>
-                <nav className="navbar navbar-expand-lg p-0">
+                <nav className="navbar navbar-expand-lg p-0" ref={navRef}>
                     <div className="container">
                         <a className="navbar-brand" href="/" data-aos="fade-right" data-aos-duration="1000">
                             <img src="/images/logo.webp" alt="img" />
                         </a>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu"
-                            aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <button onClick={() => collapseNav()} className="navbar-toggler" type="button">
                             <span className="fas fa-bars"></span>
                         </button>
 
-                        <div className="collapse navbar-collapse" id="navMenu">
+                        <div className="collapse navbar-collapse" id="navMenu" style={{ display: isOpen ? "block" : "none" }}>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
                                     <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
