@@ -4,7 +4,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='mainServicePage subServicesPage'>
+        <div className='mainServicePage subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -42,25 +42,25 @@ function page() {
                             </p>
 
                             <div className='row cardDivOver'>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>50+</h3>
                                         <p>Tenants Managed</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>100%</h3>
                                         <p>Migration Uptime</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>Enterprise</h3>
                                         <p>Data Protection</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>2 Rounds</h3>
                                         <p>Included Revisions</p>
@@ -264,49 +264,49 @@ function page() {
                         <div className='col-md-5 pr-5'>
                             <h4 data-aos="fade-up" data-aos-duration="300">Technology</h4>
                             <h2 data-aos="fade-up" data-aos-duration="600">
-                                Premium Apple-centric tech stacks engineered for rapid layouts and elite graphics
+                                Microsoft-certified tools engineered for reliable tenant synchronization
                             </h2>
                         </div>
                         <div className='col-md-7'>
                             <div className='row techStackMain'>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='techStack'>
-                                        Swift
+                                        Microsoft Entra ID
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='techStack'>
-                                        SwiftUI
+                                        Exchange Online
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='techStack'>
-                                        Xcode
+                                        Microsoft Teams
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
-                                        TestFlight
+                                        SharePoint Online & OneDrive
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
-                                        CoreData
+                                        Microsoft Intune
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
-                                        URLSession & Combine
+                                        Microsoft Purview
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
-                                        Swift Package Manager (SPM)
+                                        BitTitan MigrationWi
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
-                                        App Store Connect
+                                        M365 Admin Center & PowerShell
                                     </div>
                                 </div>
                             </div>
@@ -342,7 +342,7 @@ function page() {
                                             data-bs-toggle="collapse"
                                             data-bs-target="#faq1"
                                         >
-                                            Why should we prioritize native Swift over a multi-platform approach?
+                                            Will our email service go down during the migration to Microsoft 365?
                                         </button>
                                     </h2>
                                     <div
@@ -351,7 +351,7 @@ function page() {
                                         data-bs-parent="#faqAccordion"
                                     >
                                         <div className="accordion-body">
-                                            Native iOS apps provide the absolute highest tier of animation smoothness, load performance, rendering speed, and security. They also get instant access to new iOS features like custom widgets, Siri shortcuts, and Dynamic Island mechanics on launch day.
+                                            No. We implement background staging procedures that transfer your historical mailboxes quietly. The final cutover to the new system is completed during off-peak hours, ensuring zero operational downtime for your business.
                                         </div>
                                     </div>
                                 </div>
@@ -364,7 +364,7 @@ function page() {
                                             data-bs-toggle="collapse"
                                             data-bs-target="#faq2"
                                         >
-                                            Apple is famous for rejecting applications from the App Store. How do you mitigate this?
+                                            Can we restrict certain departments from seeing sensitive financial files in SharePoint?
                                         </button>
                                     </h2>
                                     <div
@@ -373,7 +373,7 @@ function page() {
                                         data-bs-parent="#faqAccordion"
                                     >
                                         <div className="accordion-body">
-                                            We eliminate rejection risk by auditing your app layout against the Apple Human Interface Guidelines and App Store Review Rules throughout development. This thorough compliance testing delivers a 100% successful launch rate.
+                                            Yes, absolutely. We design a rigid hierarchical permission structure. This ensures employees can only access the explicit files and folders required for their specific job roles.
                                         </div>
                                     </div>
                                 </div>
@@ -386,7 +386,7 @@ function page() {
                                             data-bs-toggle="collapse"
                                             data-bs-target="#faq3"
                                         >
-                                           Will our application work beautifully on iPads as well as iPhones?
+                                            Can we manage and wipe company data from an employee's phone if they leave?
                                         </button>
                                     </h2>
                                     <div
@@ -395,7 +395,7 @@ function page() {
                                         data-bs-parent="#faqAccordion"
                                     >
                                         <div className="accordion-body">
-                                            Yes. We utilize responsive layouts within SwiftUI, allowing your app's visual panels to adapt and scale beautifully across standard iPhones, Pro Max aspect ratios, and full iPad screens.
+                                            Yes. By integrating Microsoft Intune mobile management rules, you can remotely wipe corporate emails and documents from any device instantly without touching the employee's personal files.
                                         </div>
                                     </div>
                                 </div>
@@ -408,7 +408,7 @@ function page() {
                                             data-bs-toggle="collapse"
                                             data-bs-target="#faq4"
                                         >
-                                            Can you integrate Apple Pay directly into our mobile application checkout?
+                                            Does Microsoft 365 back up our files automatically?
                                         </button>
                                     </h2>
                                     <div
@@ -417,7 +417,7 @@ function page() {
                                         data-bs-parent="#faqAccordion"
                                     >
                                         <div className="accordion-body">
-                                            Yes, absolutely. We integrate native Apple Pay systems to create a frictionless, single-touch checkout process that maximizes sales conversions while ensuring transaction security.
+                                            M365 provides high-availability cloud redundancy, but it is not a dedicated backup. We configure automated cloud-to-cloud retention rules to ensure your data remains completely restorable in the event of accidental user deletion.
                                         </div>
                                     </div>
                                 </div>
@@ -430,7 +430,7 @@ function page() {
                                             data-bs-toggle="collapse"
                                             data-bs-target="#faq5"
                                         >
-                                            How long does the App Store manual review phase typically take?
+                                            How long does the migration take for a medium-sized corporate team?
                                         </button>
                                     </h2>
                                     <div
@@ -439,7 +439,7 @@ function page() {
                                         data-bs-parent="#faqAccordion"
                                     >
                                         <div className="accordion-body">
-                                            Apple's review team is efficient. Most submissions are audited and completely approved within 24 to 48 hours, provided all privacy labels and test credentials are set up accurately.
+                                            For teams of 20 to 100 users, the full configuration, data migration, and deployment are completed within 5 to 10 business days, handled completely end-to-end by our specialists.
                                         </div>
                                     </div>
                                 </div>
@@ -466,13 +466,13 @@ function page() {
                                     <div className="brand-card shadow">
                                         <div className="d-flex flex-column justify-content-between h-100">
                                             <div>
-                                                <h3>Cross-Platform Mobile App Development</h3>
+                                                <h3>Microsoft 365</h3>
                                                 <p>
-                                                    Leverage unified Flutter and React Native frameworks to deploy high-performance multi-platform app solutions. You receive seamless cross-platform mobile app development that slashes time-to-market and captures wider audiences.
+                                                    Implement official Microsoft cloud suites and secure identity management to deploy unified Microsoft 365 solutions. You gain seamless Microsoft 365 integration that aligns your workforce, secures business communication, and simplifies document collaboration.
                                                 </p>
                                             </div>
                                         </div>
-                                        <a href="/services/cloud-and-infrastructure-solutions/cross-platform-mobile-app-development" className="themeBtn">View More</a>
+                                        <a href="/services/cloud-and-infrastructure-solutions/microsoft-365" className="themeBtn">View More</a>
                                     </div>
                                 </div>
 
@@ -481,13 +481,13 @@ function page() {
                                     <div className="brand-card shadow">
                                         <div className="d-flex flex-column justify-content-between h-100">
                                             <div>
-                                                <h3>Android App Development</h3>
+                                                <h3>Google Workspace</h3>
                                                 <p>
-                                                    Utilize powerful Android SDKs and modern development frameworks to build robust native android applications. You secure high-performance Android app development services engineered to maximize device capabilities and drive user acquisition.
+                                                    Configure custom business domains and cloud productivity tools using official Google frameworks for a streamlined Google Workspace setup. You receive tailored Google Workspace services engineered to optimize team collaboration and secure real-time sharing.
                                                 </p>
                                             </div>
                                         </div>
-                                        <a href="/services/cloud-and-infrastructure-solutions/android-app-development" className="themeBtn">View More</a>
+                                        <a href="/services/cloud-and-infrastructure-solutions/google-workspace" className="themeBtn">View More</a>
                                     </div>
                                 </div>
 
@@ -496,13 +496,28 @@ function page() {
                                     <div className="brand-card shadow">
                                         <div className="d-flex flex-column justify-content-between h-100">
                                             <div>
-                                                <h3>iOS App Development</h3>
+                                                <h3>Cloud Migration</h3>
                                                 <p>
-                                                    Leverage dedicated Apple developer frameworks to deploy highly responsive custom iOS applications, delivering premium iOS app development services engineered for seamless App Store submission and friction-free customer retention.
+                                                    Transfer physical databases and legacy applications to modern cloud servers using structured migration frameworks. You achieve a secure cloud transition supported by systematic cloud migration services designed to eliminate downtime and protect operational data.
                                                 </p>
                                             </div>
                                         </div>
-                                        <a href="/services/cloud-and-infrastructure-solutions/ios-app-development" className="themeBtn">View More</a>
+                                        <a href="/services/cloud-and-infrastructure-solutions/cloud-migration" className="themeBtn">View More</a>
+                                    </div>
+                                </div>
+
+                                   <div className="col-lg-3 col-md-6 col-sm-6 mt-4" data-aos="fade-right" data-aos-duration="800"
+                                    data-aos-delay="300">
+                                    <div className="brand-card shadow">
+                                        <div className="d-flex flex-column justify-content-between h-100">
+                                            <div>
+                                                <h3>AWS & Azure</h3>
+                                                <p>
+                                                    Deploy scalable virtual networks and automated data storage using global hosting platforms to build a resilient multi-cloud infrastructure. You gain dedicated AWS and Azure management structured to control operational costs and ensure service availability.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="/services/cloud-and-infrastructure-solutions/aws-and-azure" className="themeBtn">View More</a>
                                     </div>
                                 </div>
                             </div>

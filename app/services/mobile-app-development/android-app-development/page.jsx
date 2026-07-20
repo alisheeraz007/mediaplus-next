@@ -4,7 +4,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='mainServicePage subServicesPage'>
+        <div className='mainServicePage subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -42,25 +42,25 @@ function page() {
                             </p>
 
                             <div className='row cardDivOver'>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>25+</h3>
                                         <p>Android Apps Live</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>99.2%</h3>
                                         <p>Device Compatibility</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>100%</h3>
                                         <p>Play Store Clearance</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>2 Rounds</h3>
                                         <p>Included Revisions</p>
@@ -269,42 +269,42 @@ function page() {
                         </div>
                         <div className='col-md-7'>
                             <div className='row techStackMain'>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='techStack'>
                                         Kotlin
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='techStack'>
                                         Jetpack Compose
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='techStack'>
                                         Android Studio
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Kotlin Coroutines
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Room Database
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Retrofit
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Dagger Hilt
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Google Play Console
                                     </div>

@@ -4,7 +4,7 @@ function page() {
     return (
         <>
 
-            <div className="inner-banner">
+            <div className="inner-banner overFlowXHidden">
                 <figure>
                     <img src="images/contactHero.png" className="img-fluid" alt="img" />
                 </figure>
@@ -16,7 +16,7 @@ function page() {
                 </div>
             </div>
 
-            <section className="contact">
+            <section className="contact overFlowXHidden">
                 <div className="container-fluid p-0">
                     <div className="row no-gutters">
                         <div className="col-lg-6 col-md-12" data-aos="fade-right" data-aos-duration="1000">

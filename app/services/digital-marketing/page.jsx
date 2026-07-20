@@ -5,7 +5,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='subServicesPage'>
+        <div className='subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -27,7 +27,7 @@ function page() {
                                 data-aos-delay="600">Let’s Get Started</Link>
                         </div>
                         <div className='col-md-6'>
-                            <img data-aos="fade-left" data-aos-duration="2000" src='/images/brainCell.png' />
+                            <img data-aos="fade-left" className="subServiceImage"  data-aos-duration="2000" src='/images/brainCell.png' />
                         </div>
                     </div>
                 </div>
@@ -48,25 +48,25 @@ function page() {
                         </div>
                         <div className='col-md-6'>
                             <div className='row countsRow'>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
                                         <h3>180+</h3>
                                         <p>Campaigns Launched</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
                                         <h3>94%</h3>
                                         <p>Client Retention</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
                                         <h3>14 Days</h3>
                                         <p>Avg. Turnaround</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
                                         <h3>3 Rounds</h3>
                                         <p>Included Revisions</p>
@@ -148,7 +148,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/seo" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +229,7 @@ function page() {
                                     Data-driven ad spend optimization.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/google-ads" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +304,7 @@ function page() {
                                     Scales multi-channel sales leads.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/meta-ads" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -386,7 +386,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/social-media-marketing" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -461,7 +461,7 @@ function page() {
                                     Differentiates your market presence.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/branding-and-creative-design" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -542,7 +542,7 @@ function page() {
                                     Engaging mobile wireframe design.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/ui-ux-design-services" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -617,7 +617,7 @@ function page() {
                                     Establishes visible industry expertise.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/digital-marketing/content-marketing" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">

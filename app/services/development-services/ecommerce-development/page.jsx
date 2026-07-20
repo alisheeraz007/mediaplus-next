@@ -4,7 +4,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='mainServicePage subServicesPage'>
+        <div className='mainServicePage subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -42,25 +42,25 @@ function page() {
                             </p>
 
                             <div className='row cardDivOver'>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>30+</h3>
                                         <p>Stores Launched</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>{`<1.5s`}</h3>
                                         <p>Avg. Checkout Speed</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>99.9%</h3>
                                         <p>Transaction Success</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>2 Rounds</h3>
                                         <p>Included Revisions</p>
@@ -268,42 +268,42 @@ function page() {
                         </div>
                         <div className='col-md-7'>
                             <div className='row techStackMain'>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='techStack'>
                                         Shopify
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='techStack'>
                                         Wordpress
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='techStack'>
                                         WooCommerce 
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Tailwind CSS
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Algolia
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Next.js
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Vercel
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Stripe & PayPal
                                     </div>

@@ -5,7 +5,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='subServicesPage'>
+        <div className='subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -23,11 +23,11 @@ function page() {
                             <p data-aos="fade-up" data-aos-duration="1400">
                                 Centralize your daily workflows with integrated enterprise ERP and CRM solutions designed to automate core business operations, manage leads, and maximize profitability.
                             </p>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1600"
+                            <Link href="/services/erp-and-crm/crm-solutions" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1600"
                                 data-aos-delay="600">Let’s Get Started</Link>
                         </div>
                         <div className='col-md-6'>
-                            <img data-aos="fade-left" data-aos-duration="2000" src='/images/brainCell.png' />
+                            <img data-aos="fade-left" className="subServiceImage"  data-aos-duration="2000" src='/images/brainCell.png' />
                         </div>
                     </div>
                 </div>
@@ -48,25 +48,25 @@ function page() {
                         </div>
                         <div className='col-md-6'>
                             <div className='row countsRow'>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
                                         <h3>55+</h3>
                                         <p>Systems Integrated</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
                                         <h3>98%</h3>
                                         <p>Satisfaction Rate</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
                                         <h3>30 Days</h3>
                                         <p>Avg. Setup Time</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
                                         <h3>Included</h3>
                                         <p>Staff Onboarding</p>
@@ -148,7 +148,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/erp-and-crm/erp-solutions" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +229,7 @@ function page() {
                                     Simplifies customer retention strategies.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/erp-and-crm/crm-solutions" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +304,7 @@ function page() {
                                     Automates basic administrative tasks.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/erp-and-crm/hrms" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -386,7 +386,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/erp-and-crm/payroll-systems" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -461,7 +461,7 @@ function page() {
                                     Built for reliable retail management.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/erp-and-crm/pos-solutions" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -542,7 +542,7 @@ function page() {
                                     Generates reliable financial reports.
                                 </li>
                             </ul>
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/erp-and-crm/accounting-software" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">

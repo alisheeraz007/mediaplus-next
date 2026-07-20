@@ -5,7 +5,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='subServicesPage'>
+        <div className='subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -27,7 +27,7 @@ function page() {
                                 data-aos-delay="600">Let’s Get Started</Link>
                         </div>
                         <div className='col-md-6'>
-                            <img data-aos="fade-left" data-aos-duration="2000" src='/images/brainCell.png' />
+                            <img data-aos="fade-left" className="subServiceImage"  data-aos-duration="2000" src='/images/brainCell.png' />
                         </div>
                     </div>
                 </div>
@@ -48,25 +48,25 @@ function page() {
                         </div>
                         <div className='col-md-6'>
                             <div className='row countsRow'>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='countCard'>
                                         <h3>1,200+</h3>
                                         <p>Vulnerabilities Patched</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='countCard'>
                                         <h3>100%</h3>
                                         <p>Threat Mitigation</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='countCard'>
                                         <h3>10 Days</h3>
                                         <p>Avg. Audit Time</p>
                                     </div>
                                 </div>
-                                <div className='col-md-6' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-6 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='countCard'>
                                         <h3>{`< 2 Hours`}</h3>
                                         <p>Response Time</p>
@@ -148,7 +148,7 @@ function page() {
                                 </li>
                             </ul>
 
-                            <Link href="/contact" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
+                            <Link href="/services/cyber-security/security-audits" className="themeBtn mt-3" data-aos="fade-right" data-aos-duration="1000"
                                 data-aos-delay="600">
                                 Book a call
                                 <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">

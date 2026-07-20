@@ -5,7 +5,7 @@ function page() {
     return (
         <>
 
-            <div className="inner-banner">
+            <div className="inner-banner overFlowXHidden">
                 <figure>
                     <img src="images/heroBg.webp" className="img-fluid" alt="img" />
                 </figure>
@@ -17,7 +17,7 @@ function page() {
                 </div>
             </div>
 
-            <section className="project-name">
+            <section className="project-name overFlowXHidden">
                 <div className="container-fluid p-0">
                     <div className="row align-items-center no-gutters">
                         <div className="col-lg-6 col-md-12" data-aos="fade-right" data-aos-duration="1200">

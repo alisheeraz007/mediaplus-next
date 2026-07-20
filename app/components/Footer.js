@@ -18,76 +18,76 @@ function Footer() {
             </a>
             <div className="container">
                 <div className="row justify-content-between">
-                    <div className="col-md-4" data-aos="fade-right" data-aos-duration="1000">
-                        <h3 data-aos="fade-up" data-aos-duration="800">About Us</h3>
+                    <div className="col-md-4">
+                        <h3>About Us</h3>
                         <div className="about-footer">
-                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Your Strategic Tech Partner in
+                            <p>Your Strategic Tech Partner in
                                 Dubai. We don't just write code; we engineer scalable digital
                                 ecosystems. From complex enterprise software to market-dominating mobile apps, we build the
                                 digital assets that power the region's industry leaders.</p>
                             <ul className="social-link">
-                                <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400"><a
+                                <li><a
                                     href="https://www.facebook.com/Mediaplusofficial/"><i className="fab fa-facebook-f"></i></a>
                                 </li>
-                                <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500"><a
+                                <li><a
                                     href="https://www.linkedin.com/company/mediaplus-information-technology/"><i
                                         className="fab fa-linkedin-in"></i></a></li>
-                                <li data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600"><a
+                                <li><a
                                     href="https://www.instagram.com/mediaplusofficial/"><i className="fab fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                        <h3 data-aos="fade-up" data-aos-duration="800">Quick Links</h3>
+                    <div className="col-md-2">
+                        <h3>Quick Links</h3>
                         <ul className="quick-list">
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="300"><a href="/"><i
+                            <li><a href="/"><i
                                 className="fal fa-long-arrow-right"></i> Home</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="400"><a href="/about-us"><i
+                            <li><a href="/about-us"><i
                                 className="fal fa-long-arrow-right"></i> About Us</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="/portfolio"><i
+                            <li><a href="/portfolio"><i
                                 className="fal fa-long-arrow-right"></i> Our Portfolio</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="/case-study"><i
+                            <li><a href="/case-study"><i
                                 className="fal fa-long-arrow-right"></i> Case Studies</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a href="/blog"><i
+                            <li><a href="/blog"><i
                                 className="fal fa-long-arrow-right"></i> Blogs</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="600"><a href="/contact"><i
+                            <li><a href="/contact"><i
                                 className="fal fa-long-arrow-right"></i> Let' Connect</a></li>
                         </ul>
                     </div>
-                    <div className="col-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 data-aos="fade-up" data-aos-duration="800">Our Services</h3>
+                    <div className="col-md-3">
+                        <h3>Our Services</h3>
                         <ul className="quick-list">
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="500"><a
+                            <li><a
                                 href="branding-and-graphic-design.php"><i className="fal fa-long-arrow-right"></i> Branding &
                                 Graphic Design</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="600"><a
+                            <li><a
                                 href="website-and-digital-development.php"><i className="fal fa-long-arrow-right"></i> Website &
                                 Digital Development</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="700"><a
+                            <li><a
                                 href="mobile-app-development.php"><i className="fal fa-long-arrow-right"></i> Mobile App
                                 Development</a></li>
-                            <li data-aos="fade-left" data-aos-duration="500" data-aos-delay="800"><a
+                            <li><a
                                 href="digital-marketing-and-promotion.php"><i className="fal fa-long-arrow-right"></i> Digital
                                 Marketing & Promotion</a></li>
                         </ul>
                     </div>
-                    <div className="col-md-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
-                        <h3 data-aos="fade-up" data-aos-duration="800">Contact Info</h3>
+                    <div className="col-md-3">
+                        <h3>Contact Info</h3>
                         <ul className="contactInfo">
-                            <li data-aos="fade-right" data-aos-duration="500" data-aos-delay="700"><a
+                            <li><a
                                 href="tel:+971501614417"><i className="fas fa-phone-alt"></i> +971 50 161 4417</a></li>
-                            <li data-aos="fade-right" data-aos-duration="500" data-aos-delay="800"><a
+                            <li><a
                                 href="mailto:info@mediaplusuae.com"><i className="fas fa-envelope"></i>
                                 info@mediaplusuae.com</a></li>
-                            <li data-aos="fade-right" data-aos-duration="500" data-aos-delay="900"><a
+                            <li><a
                                 href="javascript:void(0)"><i className="fas fa-map-marker-alt"></i> Office 906, Business Avenue
                                 Building, Al Khabaisi, Dubai, United Arab Emirates</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="row copyRight justify-content-center text-center">
-                    <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <div className="col-md-6">
                         <p> &copy; <span id="currentyear">2026</span> Copyright Media Plus. All Right Reserved </p>
                     </div>
                 </div>

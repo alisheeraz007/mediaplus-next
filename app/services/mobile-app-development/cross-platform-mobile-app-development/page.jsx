@@ -4,7 +4,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='mainServicePage subServicesPage'>
+        <div className='mainServicePage subServicesPage overFlowXHidden'>
             <div className="inner-banner innerBannerSub" style={{ backgroundImage: "url(/images/webdevservices.png)" }}>
                 <div className="container">
                     <div className='row'>
@@ -42,25 +42,25 @@ function page() {
                             </p>
 
                             <div className='row cardDivOver'>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>45+</h3>
                                         <p>Dual-Launch Apps</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>90%+</h3>
                                         <p>Code Reusability</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>100%</h3>
                                         <p>Store Approval Rate</p>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-6'>
                                     <div className='over'>
                                         <h3>2 Rounds</h3>
                                         <p>Included Revisions</p>
@@ -269,42 +269,42 @@ function page() {
                         </div>
                         <div className='col-md-7'>
                             <div className='row techStackMain'>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="100">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="100">
                                     <div className='techStack'>
                                         Flutter
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="300">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="300">
                                     <div className='techStack'>
                                         React Native
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="500">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="500">
                                     <div className='techStack'>
                                         Figma
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Node.js & NestJS
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         SQLite & Hive
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Firebase Cloud Messaging
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Fastlane
                                     </div>
                                 </div>
-                                <div className='col-md-3' data-aos="fade-up" data-aos-duration="700">
+                                <div className='col-md-3 col-6' data-aos="fade-up" data-aos-duration="700">
                                     <div className='techStack'>
                                         Sentry & Crashlytics
                                     </div>

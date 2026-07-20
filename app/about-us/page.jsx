@@ -7,7 +7,7 @@ function index() {
   return (
     <>
 
-      <div className="inner-banner">
+      <div className="inner-banner overFlowXHidden">
         <figure>
           <img src="images/aboutHero.png" className="img-fluid" alt="img" />
         </figure>
@@ -63,7 +63,7 @@ function index() {
           data-aos-duration="1500" data-aos-delay="800" /> */}
       </section>
 
-      <section className="leadership">
+      <section className="leadership overFlowXHidden">
         <div className="container">
           <div className="row">
             <div className="col-md-6" data-aos="fade-right" data-aos-duration="1200">
@@ -98,7 +98,7 @@ function index() {
         </div>
       </section>
 
-      <section className="achievement">
+      <section className="achievement overFlowXHidden">
         <div className="container">
           <hgroup>
             <h3 className="subHead" data-aos="fade-up" data-aos-duration="800">

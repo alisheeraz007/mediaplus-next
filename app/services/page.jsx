@@ -6,7 +6,7 @@ function page() {
     return (
         <>
 
-            <div className="inner-banner">
+            <div className="inner-banner overFlowXHidden">
                 <figure>
                     <img src="images/serviceHero.png" className="img-fluid" alt="img" />
                 </figure>
@@ -378,7 +378,7 @@ function page() {
                 </div>
             </section> */}
 
-            <section className="hiring">
+            <section className="hiring overFlowXHidden">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6" data-aos="fade-right" data-aos-duration="1200">

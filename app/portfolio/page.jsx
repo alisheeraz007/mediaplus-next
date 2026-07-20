@@ -4,7 +4,7 @@ function page() {
     return (
         <>
 
-            <div className="inner-banner">
+            <div className="inner-banner overFlowXHidden">
                 <figure>
                     <img src="images/portfolioHero.png" className="img-fluid" alt="img" />
                 </figure>
@@ -16,7 +16,7 @@ function page() {
                 </div>
             </div>
 
-            <section className="portfolio-tabs">
+            <section className="portfolio-tabs overFlowXHidden">
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
 
                     <li className="nav-item" role="presentation">

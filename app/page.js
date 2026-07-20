@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <section className="main-slider p-0" id="mainSlider">
+      <section className="main-slider p-0 overFlowXHidden" id="mainSlider">
         <div className="image-layer video-layer">
           <video autoPlay muted loop playsInline controlsList="nodownload"
             poster="images/poster.webp">
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </section >
 
-      <section className="our-app position-relative  ">
+      <section className="our-app position-relative overFlowXHidden">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-7">
@@ -86,7 +86,7 @@ export default function Home() {
           data-aos-duration="1500" data-aos-delay="800" /> */}
       </section>
 
-      <section className="branding position-relative  ">
+      <section className="branding position-relative overFlowXHidden">
         <div className="container">
           <hgroup>
             <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
@@ -454,7 +454,7 @@ export default function Home() {
         </div>
       </section> */}
 
-      <section section className="our-success position-relative  " >
+      <section section className="our-success position-relative overFlowXHidden" >
         <hgroup>
           <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
             <figure><img src="images/subHead.webp" alt="icon" /></figure>
@@ -495,7 +495,7 @@ export default function Home() {
 
       <ProvenExp />
 
-      <section className="engineering position-relative  ">
+      <section className="engineering position-relative overFlowXHidden">
         <div className="container">
           <hgroup>
             <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
@@ -598,7 +598,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="experienced position-relative  ">
+      <section className="experienced position-relative overFlowXHidden">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-7">
@@ -655,7 +655,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="innovation">
+      <section className="innovation overFlowXHidden">
         <div className="marquee-section">
 
           <div className="marquee-wrapper purple">
@@ -740,7 +740,7 @@ export default function Home() {
       </section>
 
 
-      <section className="blog position-relative  ">
+      <section className="blog position-relative overFlowXHidden">
         <div className="container">
           <hgroup>
             <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
@@ -790,7 +790,7 @@ export default function Home() {
           data-aos-duration="1500" data-aos-delay="600" /> */}
       </section>
 
-      <section className="testimonial position-relative  ">
+      <section className="testimonial position-relative overFlowXHidden">
         <div className="container">
           <hgroup>
             <h3 className="subHead" data-aos="fade-down" data-aos-duration="800">
