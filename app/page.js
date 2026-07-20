@@ -37,11 +37,8 @@ export default function Home() {
                   <h3>STRATEGIC TECH PARTNER</h3>
                   <h1>From Vision to
                     Venture.</h1>
-                  <p>We don't just write
-                    code; we build digital
-                    ecosystems.
-                    MediaPlus engineers Enterprise Software, AI Solutions, and Mobile Platforms for
-                    Dubai's most ambitious leaders.
+                  <p>
+                    We empower businesses with AI Solutions, Enterprise Software, Cloud Infrastructure, Cyber Security, Managed IT Services, Mobile Apps, and Digital Marketing, helping ambitious companies scale faster through intelligent technology.
                   </p>
                   <div>
                     <a href="contact.php" className="themeBtn">Book Strategy Session</a>
@@ -360,7 +357,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img2.png" alt="icon"  />
+                  <img src="/images/award-img2.png" alt="icon" />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Smart connect</h2>
@@ -375,7 +372,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img3.png" alt="icon"  />
+                  <img src="/images/award-img3.png" alt="icon" />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Smart connect</h2>
@@ -390,7 +387,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="800" className="awardCardMain">
-                  <img src="/images/award-img4.png" alt="icon"  />
+                  <img src="/images/award-img4.png" alt="icon" />
                   <div className="textDiv">
                     <div className="textDiv1">
                       <h2>Smart connect</h2>
